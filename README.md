@@ -22,7 +22,6 @@ Ejercicio de mi padre   (partir una galleta en fracciones y pedir a elegir la ca
 
 ### Requerimientos no Funcionales
 - Debe soportar 100 usuarios jugando al mismo tiempo 
-- 
 
 
 29 y 25 alumnos de 6to grado
@@ -41,11 +40,11 @@ Ver algo de el sistemas de cuentas
 Qué el videojuego tenga alguna meta
 Porcentaje de preguntas correctas para pasar de nivel (70% - 80%)
 
-Pruebas públicas 
-  -   Alfa-testers (Compañeros de universidad y familia, tal vez bots que jueguen)
+#### Pruebas públicas 
+- Alfa-testers (Compañeros de universidad y familia, tal vez bots que jueguen)
 - Beta-testers (Primeros niños de la escuela que se quieran aventuran)
 
 
-Roles de usuario: 
+#### Roles de usuario 
 	-  Administrador 
 	- Jugador 
