@@ -38,7 +38,7 @@ Porcentaje de preguntas correctas para pasar de nivel (70% - 80%)
 
 #### Pruebas públicas 
 - Alfa-testers (Usuarios de universidad o tal vez bots que jueguen)
-- Beta-testers (Primeros niños de la escuela que se quieran aventuran)
+- Beta-testers (Primeros niños de la escuela que se quieran aventurar)
 
 
 #### Roles de usuario 
