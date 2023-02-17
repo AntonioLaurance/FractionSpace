@@ -6,9 +6,10 @@ Temas que abarcará el videojuego
 - Clasificación de fracciones
 - Operaciones con fracciones
 
-Donald y la historia de las matemáticas
-Concepto de proporcionalidad 
-Ejercicio de mi padre   (partir una galleta en fracciones y pedir a elegir la cantidad mayor a los alumnos). 
+### Sugerencia de material a poner
+- Donald y la historia de las matemáticas
+- Concepto de proporcionalidad 
+- Sugerencia de ejercicios (partir una galleta en fracciones y pedir a elegir la cantidad mayor a los alumnos). 
 
 
 ### Requerimientos Funcionales
@@ -23,25 +24,20 @@ Ejercicio de mi padre   (partir una galleta en fracciones y pedir a elegir la ca
 ### Requerimientos no Funcionales
 - Debe soportar 100 usuarios jugando al mismo tiempo 
 
+#### Número potencial de usuarios
+54 (29 y 25) alumnos de 6to grado
 
-29 y 25 alumnos de 6to grado
+Ver incentivos para enganchar al usuario (Ejemplo ranking)
 
-Ver incentivos para enganchar al usuario
-Ranking con 
-
-Inspirarme en mathetics
-
-
-Metodología de desarrollo de software: Modelo de prototipos
-Poner algo de historia de las matemáticas 
-
+**Metodología de desarrollo de software:** Modelo de prototipos
+Poner algo de historia de las matemáticas para inspirar a los usuarios
 
 Ver algo de el sistemas de cuentas 
 Qué el videojuego tenga alguna meta
 Porcentaje de preguntas correctas para pasar de nivel (70% - 80%)
 
 #### Pruebas públicas 
-- Alfa-testers (Compañeros de universidad y familia, tal vez bots que jueguen)
+- Alfa-testers (Usuarios de universidad o tal vez bots que jueguen)
 - Beta-testers (Primeros niños de la escuela que se quieran aventuran)
 
 
