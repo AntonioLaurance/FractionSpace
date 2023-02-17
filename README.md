@@ -11,7 +11,7 @@ Concepto de proporcionalidad
 Ejercicio de mi padre   (partir una galleta en fracciones y pedir a elegir la cantidad mayor a los alumnos). 
 
 
-Requerimientos funcionales: 
+### Requerimientos Funcionales
 - Dar reportes de los temas a reforzar 
 - Grados de dificultad que van a los grados de la SEP
 - Identificar a los usuarios con número de lista y grupo 
@@ -20,7 +20,7 @@ Requerimientos funcionales:
 		- En que porcentaje de alumnos se quedaron en dicho nivel
 		- Progresión de aprendizaje 
 
-Requerimientos no funcionales: 
+### Requerimientos no Funcionales
 - Debe soportar 100 usuarios jugando al mismo tiempo 
 - 
 
