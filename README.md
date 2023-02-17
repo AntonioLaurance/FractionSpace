@@ -46,5 +46,5 @@ Porcentaje de preguntas correctas para pasar de nivel (70% - 80%)
 
 
 #### Roles de usuario 
-	-  Administrador 
-	- Jugador 
+- Administrador
+- Usuario
