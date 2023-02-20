@@ -52,6 +52,9 @@ Ver incentivos para enganchar al usuario (Ejemplo ranking)
 - Que el videojuego tenga alguna meta para incentivar a los usuarios a completarlo.
 - Porcentaje de preguntas correctas para pasar de nivel (70% - 80%)
 
+#### Colaboradores
+- Escuela metropolitana (https://metropolitana-la-luz.webnode.mx)
+
 #### Pruebas públicas 
 - Alfa-testers (Usuarios de universidad o tal vez bots que jueguen)
 - Beta-testers (Primeros niños de la escuela que se quieran aventurar)
