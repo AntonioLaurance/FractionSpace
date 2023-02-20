@@ -28,16 +28,17 @@ Este repositorio es acerca de un videojuego didactico que corra en la web (Chrom
 
 
 ### Requerimientos Funcionales
-- Dar reportes de los temas a reforzar 
-- Grados de dificultad que van a los grados de la SEP
-- Identificar a los usuarios con número de lista y grupo 
-  -   El videojuego deberá mostrar estadísticas con los datos de:
-		- En que nivel se quedaron
-		- En que porcentaje de alumnos se quedaron en dicho nivel
-		- Progresión de aprendizaje 
+- Grados de dificultad que van a los grados académicos de la SEP
+- El videojuego deberá mostrar estadísticas con los datos de:
+	- En que nivel se quedaron
+	- En que porcentaje de alumnos se quedaron en dicho nivel
+	- Progresión de aprendizaje 
+	- Temas a reforzar
 
 ### Requerimientos no Funcionales
 - Debe soportar 100 usuarios jugando al mismo tiempo 
+- Se identificará a los usuarios mediante su número de lista y grupo 
+
 
 #### Número potencial de usuarios
 54 (29 y 25) alumnos de 6to grado
@@ -48,7 +49,7 @@ Ver incentivos para enganchar al usuario (Ejemplo ranking)
 
 Poner algo de historia de las matemáticas para inspirar a los usuarios
 
-Que el videojuego tenga alguna meta para incentivar a los usuarios a completarlo.
+Que el videojuego tenga alguna meta para incentivar a los usuarios a completarlo. \n
 Porcentaje de preguntas correctas para pasar de nivel (70% - 80%)
 
 #### Pruebas públicas 
