@@ -48,8 +48,7 @@ Ver incentivos para enganchar al usuario (Ejemplo ranking)
 
 Poner algo de historia de las matemáticas para inspirar a los usuarios
 
-Ver algo de el sistemas de cuentas 
-Qué el videojuego tenga alguna meta
+Que el videojuego tenga alguna meta para incentivar a los usuarios a completarlo.
 Porcentaje de preguntas correctas para pasar de nivel (70% - 80%)
 
 #### Pruebas públicas 
