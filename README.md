@@ -56,7 +56,7 @@ Ver incentivos para enganchar al usuario (Ejemplo ranking)
 - Escuela metropolitana (https://metropolitana-la-luz.webnode.mx)
 
 #### Pruebas públicas 
-- Alfa-testers (Usuarios de universidad o tal vez bots que jueguen)
+- Alpha-testers (Usuarios de universidad o tal vez bots que jueguen)
 - Beta-testers (Primeros niños de la escuela que se quieran aventurar)
 
 #### Roles de usuario 
