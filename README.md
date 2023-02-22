@@ -2,24 +2,29 @@
 Este repositorio es acerca de un videojuego didactico que corra en la web (Chrome) acerca de las fracciones (quebrados) enfocado especialmente para niños de primaria especialmente de 6to año. Este videojuego tiene el propósito de mejorar las habilidades mátematicas especialmente en las operaciones con fracciiones debido a que en esta área es en la que más fallan los niños de la escuela perteneciente al socio formado esto con el propósito de estar mejor preparado la olimpiada del conocimiento infantil. Este proyecto es parte de la materia **Construcción de Software y Toma de Decisiones** impartida en el Tecnológico de Monterrey en el cuarto semestre para la carrera de Ingenieria en Tecnologías Computaciones (ITC).
 
 ### Temas que abarcará el videojuego
-- Agrupamientos y colecciones
-- Operaciones básicas
+1. Agrupamientos y colecciones
+	- Agrupar en conjuntos los elementos iguales (cuadrados, triangulos, circulos, etc).
+2. Operaciones básicas
+	- Terminología
 	- Suma 
 	- Resta
 	- Multiplicación
 	- División
-- Elementos de una fracción
+	- Aplicaciones
+3. Elementos de una fracción
 	- Númerador
 	- Denominador
-- Clasificación de fracciones
+	- Aplicaciones
+4. Clasificación de fracciones
 	- Propias 
 	- Impropias
 	- Mixtas
-- Operaciones con fracciones
+5. Operaciones con fracciones
 	- Suma de fracciones  
 	- Resta de fracciones
 	- Multiplicación de fracciones 
 	- División de fracciones
+	- Aplicaciones
 
 ### Sugerencia de material a poner
 - Video *Donald en la tierra mágica de las matemáticas*
@@ -48,7 +53,8 @@ Ver incentivos para enganchar al usuario (Ejemplo ranking)
 **Metodología de desarrollo de software:** Modelo de prototipos
 
 #### Sugerencias
-- Poner algo de historia de las matemáticas para inspirar a los usuarios
+- Poner algo de historia y aplicación de las matemáticas para inspirar a los usuarios.
+- No estresar al usuario con tiempos límites por cada nivel.
 - Que el videojuego tenga alguna meta para incentivar a los usuarios a completarlo.
 - Porcentaje de preguntas correctas para pasar de nivel (70% - 80%)
 
