@@ -1,0 +1,263 @@
+Unity Editor version:    2021.3.18f1 (3129e69bc0c7)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5.1 (Build 21G83)
+Darwin version:          21.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/ricky/Fraction Unity
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59139
+Successfully changed project path to: /Users/ricky/Fraction Unity
+/Users/ricky/Fraction Unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4476159360] Host "[IP] 10.48.255.155 [Port] 0 [Flags] 2 [Guid] 3489134800 [EditorId] 3489134800 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4476159360] Host "[IP] 10.48.255.155 [Port] 0 [Flags] 2 [Guid] 3489134800 [EditorId] 3489134800 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 68.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ricky/Fraction Unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56027
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001338 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 53.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.435 seconds
+Domain Reload Profiling:
+	ReloadAssembly (435ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (292ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (80ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (164ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003994 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/ricky/Fraction Unity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/ricky/Fraction Unity/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.645 seconds
+Domain Reload Profiling:
+	ReloadAssembly (645ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (507ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.24 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (88.1 KB). Loaded Objects now: 3508.
+Memory consumption went from 101.9 MB to 101.9 MB.
+Total: 2.489958 ms (FindLiveObjects: 0.128083 ms CreateObjectMapping: 0.046750 ms MarkObjects: 2.114458 ms  DeleteObjects: 0.200083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 157627.762328 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.004374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.268137 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_bomb.ogg
+  artifactKey: Guid(c8217e4de364f49c497aa997eaccac85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_bomb.ogg using Guid(c8217e4de364f49c497aa997eaccac85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fcbf49562de0cde79943a20bedc669') in 0.420363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_boss_fire.ogg
+  artifactKey: Guid(c3185c5b639394d90a513019ea93154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_boss_fire.ogg using Guid(c3185c5b639394d90a513019ea93154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b8c170f0698044e13967d3a71db4c8') in 0.004882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_boss_music.ogg
+  artifactKey: Guid(97686e340fce94ab7941136d320764d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_boss_music.ogg using Guid(97686e340fce94ab7941136d320764d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d132690e97e04819ec16328e2e7551') in 0.003815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_snap.ogg
+  artifactKey: Guid(a40f705b26f4045f09a835ff32dbb76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_snap.ogg using Guid(a40f705b26f4045f09a835ff32dbb76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e92f993a9601c652d83c32d1f06a97') in 0.003216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_step1.ogg
+  artifactKey: Guid(82169d8cba91f4947a815ea9238a5f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_step1.ogg using Guid(82169d8cba91f4947a815ea9238a5f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad831d5ced58a1951ba3bdb319fdad0') in 0.003237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_landing.ogg
+  artifactKey: Guid(d0abc88f6d40d485d8cad06530d55531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_landing.ogg using Guid(d0abc88f6d40d485d8cad06530d55531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7ec8f8bfdeda5db0433948c9e0905d') in 0.003363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_main_theme.ogg
+  artifactKey: Guid(fcf9fefbc86f94343a645d8711d2088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_main_theme.ogg using Guid(fcf9fefbc86f94343a645d8711d2088f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23db5b5c4f7f416899cfc637745157a') in 0.003398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_small_rifle.ogg
+  artifactKey: Guid(5b2ddc363159f4aaaa8df0f3544b1abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_small_rifle.ogg using Guid(5b2ddc363159f4aaaa8df0f3544b1abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df8364243743cdb6c236e6807686ce9') in 0.003937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_end_drums.ogg
+  artifactKey: Guid(89f428727008a4749a638d3409ce9f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_end_drums.ogg using Guid(89f428727008a4749a638d3409ce9f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d119a45d2364bffdfee4d51052355b') in 0.003121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_boss_laser.ogg
+  artifactKey: Guid(71706587959164a2d8cc6aebcbc14ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_boss_laser.ogg using Guid(71706587959164a2d8cc6aebcbc14ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445ee690c66afdd9e443b059a47e0c67') in 0.004803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_explosion_ground.ogg
+  artifactKey: Guid(a9791a0a38b964021b4dcc67ce4854c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_explosion_ground.ogg using Guid(a9791a0a38b964021b4dcc67ce4854c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd3bb0a6a54e8bd589941f25934523f') in 0.006096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_step2.ogg
+  artifactKey: Guid(16d5be195bb694682a60f834f5696d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_step2.ogg using Guid(16d5be195bb694682a60f834f5696d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82d628253179f3f0a3b4da50c5378e2') in 0.003537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_hurt.ogg
+  artifactKey: Guid(ad47bc5d1211b4e3da68270b65ca4d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_hurt.ogg using Guid(ad47bc5d1211b4e3da68270b65ca4d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6e4940c10ccdfb4b26a22f5d7da58d') in 0.003209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/didigameboy-jojojambo-audio/snd_jump_hump.ogg
+  artifactKey: Guid(763b0c5e22d4048fc8b3b5b827ec140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/didigameboy-jojojambo-audio/snd_jump_hump.ogg using Guid(763b0c5e22d4048fc8b3b5b827ec140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f7ab6ad858b443b15dc066d7f91686') in 0.003129 seconds 
