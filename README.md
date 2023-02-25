@@ -1,5 +1,7 @@
 # FractionSpace
-Este repositorio es acerca de un videojuego didactico que corra en la web (Chrome) acerca de las fracciones (quebrados) enfocado especialmente para niños de primaria especialmente de 6to año. Este videojuego tiene el propósito de mejorar las habilidades mátematicas especialmente en las operaciones con fracciiones debido a que en esta área es en la que más fallan los niños de la escuela perteneciente al socio formado esto con el propósito de estar mejor preparado la olimpiada del conocimiento infantil. Este proyecto es parte de la materia **Construcción de Software y Toma de Decisiones** impartida en el Tecnológico de Monterrey en el cuarto semestre para la carrera de Ingenieria en Tecnologías Computaciones (ITC). El videojuego tiene una temática del espacio con 3 niveles el cuál es en 3D, la temática del primer nivel será de un memorama (para identificar los elementos de un conjunto) y las temáticas de los dos últimos niveles serán sobre combate por turnos donde se le deberán lanzar ataques a un rival y cada vez que el usuario le lanze un ataque al rival deberá resolver una operación la cuál determinará si el ataque es exitoso o fallido. 
+Este proyecto (repositorio) es acerca de un videojuego didactico (que se ejecute en un navegador web (Chrome)) acerca de las fracciones (quebrados) enfocado especialmente para niños de primaria especialmente de 6to año. Este videojuego tiene el propósito de mejorar las habilidades mátematicas especialmente en las operaciones con fracciones debido a que en esta área es en la que más fallan los niños de la **Escuela Metropolitana "La Luz"** esto con el propósito de estar mejor preparado la olimpiada del conocimiento infantil 2023 y así continuar siendo una de las mejores escuelas. Este proyecto es parte de la materia **Construcción de Software y Toma de Decisiones** impartida en el Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM) en el cuarto semestre para la carrera de Ingenieria en Tecnologías Computaciones (ITC).
+
+El videojuego es en 3D con una temática del espacio, donde hay 3 niveles, la mecánica del juego en el primer nivel será resolver un memorama (para identificar los elementos de un conjunto) y las mecánicas de los dos últimos niveles serán sobre combate por turnos donde se le deberán lanzar ataques a un rival y cada vez que el usuario le lanze un ataque al rival deberá resolver una operación la cuál determinará si el ataque es exitoso o fallido. En el primer nivel el usuario gana al terminar de resolver el memorama, en el resto de los niveles el usuario gana de acuerdo al porcentaje de ataques exitosos lanzados (operaciones resueltas exitosamente) sobre el oponente.  
 
 ### Temas que abarcará el videojuego
 1. Agrupamientos y colecciones
@@ -61,6 +63,13 @@ Ver incentivos para enganchar al usuario (Ejemplo ranking)
 #### Colaboradores
 - Escuela metropolitana (https://metropolitana-la-luz.webnode.mx)
 
+#### Plataforma objetivo 
+- **Navegador:** Chrome 
+- Equipo de computo
+	- **Procesador:** AMD A4-9125 RADEON R3 4 COMPUTE CORES 20+2G a 2.3 GHz (CPU con GPU integrada)
+	- **RAM:** 4 GB 
+	- **Sistema operativo:** Windows 10 (64 bits)
+
 #### Pruebas públicas 
 - Alpha-testers (Usuarios de universidad o tal vez bots que jueguen)
 - Beta-testers (Primeros niños de la escuela que se quieran aventurar)
@@ -70,10 +79,10 @@ Ver incentivos para enganchar al usuario (Ejemplo ranking)
 - Usuario
 
 #### Tecnologías utilizadas
-- Django 
 - Anaconda
-- Python 
-- HTML
-- CSS
 - C#
+- CSS
+- Django 
+- HTML
+- Python 
 - Unity
