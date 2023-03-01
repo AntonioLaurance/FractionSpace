@@ -25,6 +25,19 @@ class Fraccion:
             else: 
                 i = i + 1
 
+        # Si el denominador es negativo multiplicamos toda la fracción por -1
+        # para volverlo positivo
+        if(self.den < 0):
+            self.num = self.num * (-1)
+            self.den = self.den * (-1)
+
+        # Devolvemos tipo de dato entero en las fracciones si es un número entero
+        if(self.num == int(self.num)):
+            self.num = int(self.num)
+
+        if(self.den == int(self.den)):
+            self.den = int(self.den)
+
     def is_equal_to(self, fraccion) -> bool:
         if(type(fraccion) == Fraccion):
             return self.num * fraccion.den == self.den * fraccion.num
@@ -65,7 +78,7 @@ def suma(request):
     return HttpResponse(json_resultado,
                         content_type = "text/json-comment-filtered")
 
-# Function invoked when the user send a JSON throught the endpoint /resta
+# Function invoked when the user send a JSON (PUSH) throught the endpoint /resta
 @csrf_exempt
 def resta(request):
     body_unicode = request.body.decode('utf-8')
