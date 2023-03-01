@@ -37,8 +37,8 @@ El videojuego es en 3D con una temática del espacio, donde hay 3 niveles, la me
 ### Requerimientos Funcionales
 - Grados de dificultad que van a los grados académicos de la SEP
 - El videojuego deberá mostrar estadísticas con los datos de:
-	- En que nivel se quedaron
-	- En que porcentaje de alumnos se quedaron en dicho nivel
+	- En qué nivel se quedaron
+	- En qué porcentaje de alumnos se quedaron en dicho nivel
 	- Progresión de aprendizaje 
 	- Temas a reforzar
 
