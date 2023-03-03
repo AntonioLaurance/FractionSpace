@@ -69,7 +69,7 @@ Ver incentivos para enganchar al usuario (Ejemplo ranking)
 		- Dr. Sergio Ruiz Loza 		    	(Desarrollo de videojuegos, sruizl)
 		- Dr. José Martín Molina Espinosa.  	(Bases de datos y desarrollo web, josemartinmolina)
 	- Estudiantes
-		- Samuel Sandoval Delgado		A01656191	(SamuelDrake)
+		- Samuel Sandoval Delgado		A01656191\n	(SamuelDrake)
 	   	- Juan Francisco Sánchez Sánchez	A01656793	(FranciscoSanchezz)
 		- Ricardo Campos Luna 			A01656898	(AntonioLaurance)
 		- César Andrés Ceballos Castillo	A01661893	(CesarCeballosC)
