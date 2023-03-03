@@ -62,6 +62,20 @@ Ver incentivos para enganchar al usuario (Ejemplo ranking)
 
 #### Colaboradores
 - Escuela metropolitana (https://metropolitana-la-luz.webnode.mx)
+	- Lic. Iszel Abreu Hernández                	(Directora Técnica, dt@metropolitanalaluz.com)
+- Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM, https://tec.mx)
+	- Profesores
+		- Dr. Christian Vallejo Villamil    	(Base de datos, análisis y modelación de sistemas de software)
+		- Dr. Sergio Ruiz Loza 		    	(Desarrollo de videojuegos, sruizl)
+		- Dr. José Martín Molina Espinosa.  	(Bases de datos y desarrollo web, josemartinmolina)
+	- Estudiantes
+		- Samuel Sandoval Delgado		A01656191	(SamuelDrake)
+	   	- Juan Francisco Sánchez Sánchez	A01656793	(FranciscoSanchezz)
+		- Ricardo Campos Luna 			A01656898	(AntonioLaurance)
+		- César Andrés Ceballos Castillo	A01661893	(CesarCeballosC)
+		- Luis Roberto Martínez Ramírez		A01662619	(luismtzrmz120)
+		- Javier Valente Rodríguez		A01662693	(JavierVr06)
+		
 
 #### Plataforma objetivo 
 - **Navegador:** Chrome 
