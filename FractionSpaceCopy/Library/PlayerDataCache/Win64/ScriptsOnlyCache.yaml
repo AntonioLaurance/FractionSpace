@@ -21,6 +21,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GroupBrush
     - UnityEditor.Tilemaps.LineBrush
     - UnityEditor.Tilemaps.RandomBrush
+    Unity.PlasticSCM.Editor.dll:
+    - Unity.PlasticSCM.Editor.PlasticWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -28,6 +30,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -57,6 +60,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
@@ -128,9 +132,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3858}
     - Class: 114
-      Script: {instanceID: 6308}
+      Script: {instanceID: 6310}
     - Class: 114
-      Script: {instanceID: 6882}
+      Script: {instanceID: 6884}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -158,19 +162,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
     - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 49
-      Script: {instanceID: 0}
-    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -197,13 +193,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4824}
     - Class: 114
-      Script: {instanceID: 5646}
+      Script: {instanceID: 5648}
     - Class: 114
-      Script: {instanceID: 5954}
+      Script: {instanceID: 5956}
     - Class: 114
-      Script: {instanceID: 6308}
+      Script: {instanceID: 6310}
     - Class: 114
-      Script: {instanceID: 6882}
+      Script: {instanceID: 6504}
+    - Class: 114
+      Script: {instanceID: 6884}
+    - Class: 114
+      Script: {instanceID: 23844}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -252,9 +252,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3858}
     - Class: 114
-      Script: {instanceID: 6308}
+      Script: {instanceID: 6310}
     - Class: 114
-      Script: {instanceID: 6882}
+      Script: {instanceID: 6884}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -301,9 +301,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3858}
     - Class: 114
-      Script: {instanceID: 6308}
+      Script: {instanceID: 6310}
     - Class: 114
-      Script: {instanceID: 6882}
+      Script: {instanceID: 6884}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -350,9 +350,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3858}
     - Class: 114
-      Script: {instanceID: 6308}
+      Script: {instanceID: 6310}
     - Class: 114
-      Script: {instanceID: 6882}
+      Script: {instanceID: 6884}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -399,9 +399,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3858}
     - Class: 114
-      Script: {instanceID: 6308}
+      Script: {instanceID: 6310}
     - Class: 114
-      Script: {instanceID: 6882}
+      Script: {instanceID: 6884}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -454,11 +454,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3858}
     - Class: 114
-      Script: {instanceID: 5954}
+      Script: {instanceID: 5956}
     - Class: 114
-      Script: {instanceID: 6308}
+      Script: {instanceID: 6310}
     - Class: 114
-      Script: {instanceID: 6882}
+      Script: {instanceID: 6884}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1022,6 +1022,12 @@ ScriptsOnlyBuild:
     className: CCDSolver2D
   - hash:
       serializedVersion: 2
+      Hash: a70689b528318ddd39ccd7a48552963d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WebRequest
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1419,4 +1425,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Nivel 3.unity
   - Assets/Scenes/Nivel 4.unity
   - Assets/Scenes/Estadisticas.unity
-  playerPath: /Users/ricky/Downloads/Juego Fracciones/FractionSpace.exe
+  playerPath: /Users/ricky/Desktop/Apuntes/Universidad/Cuarto Semestre/Prueba 3/FractionSpace.exe
