@@ -170,6 +170,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
     - Class: 104
@@ -1425,4 +1429,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Nivel 3.unity
   - Assets/Scenes/Nivel 4.unity
   - Assets/Scenes/Estadisticas.unity
-  playerPath: /Users/ricky/Desktop/Apuntes/Universidad/Cuarto Semestre/Prueba 3/FractionSpace.exe
+  playerPath: "/Users/ricky/Desktop/Apuntes/Universidad/Cuarto Semestre/Construccio\u0301n
+    de software y toma de decisiones/Prueba 2/FractionSpace.exe"
