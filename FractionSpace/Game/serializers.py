@@ -20,4 +20,17 @@ class PreguntaSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Pregunta
         fields = ('id', 'texto', 'operacion', 'num1', 'den1', 'num2', 'den2', 'puntaje')
-        
+
+class GraficaUsuarioSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Usuario
+        fields = ('id', 'nombre', 'grupo')  
+
+class GraficaPartidaSerializar(serializers.ModelSerializer):    
+    class Meta:
+        model = Partida
+        fields = ('fecha_inicio', 'fecha_fin', 'nivel')
+
+class GraficaSerializer(serializers.Serializer):
+    usuario = Usuario
+    partida = Partida

@@ -12,14 +12,14 @@ class Usuario(models.Model):
 # Plantilla del banco de preguntas
 class Pregunta(models.Model):
     # Modalidad de pregunta teórica
-    texto = models.CharField(max_length = 255)
+    texto = models.CharField(max_length = 255, null = True)
 
     # Modalidad de pregunta práctica
-    operacion = models.CharField(max_length = 1)        # Can be '+', '-', '*' or '/'
-    num1 = models.IntegerField()
-    den1 = models.IntegerField()
-    num2 = models.IntegerField()
-    den2 = models.IntegerField()
+    operacion = models.CharField(max_length = 1, null = True)        # Can be '+', '-', '*' or '/'
+    num1 = models.IntegerField(null = True)
+    den1 = models.IntegerField(null = True)
+    num2 = models.IntegerField(null = True)
+    den2 = models.IntegerField(null = True)
 
     # Valor de la pregunta (puntaje)
     puntaje = models.IntegerField()                     # Should be a non-negative number
@@ -31,11 +31,11 @@ class Nivel(models.Model):
     pregunta = models.ForeignKey(Pregunta, null = False, blank = False, on_delete = models.PROTECT)
 
     # Modalidad de respuesta práctica
-    num = models.IntegerField()
-    den = models.IntegerField()
+    num = models.IntegerField(null = True)
+    den = models.IntegerField(null = True)
 
     # Modalidad de respuesta teórica
-    respuesta = models.CharField(max_length = 255)
+    respuesta = models.CharField(max_length = 255, null = True)
 
 # PROTECT no se puede borrar nivel hasta que no haya ninguna partida asociada a ese nivel
 # Es equivalente a una sesión del usuario
