@@ -369,6 +369,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Sources/BotonInicio.cs"
 "Assets/Sources/Serializers.cs"
+"Assets/Sources/UserData.cs"
 "Assets/Sources/WebRequest.cs"
 -langversion:9.0
 
