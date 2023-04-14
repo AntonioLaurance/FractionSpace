@@ -889,8 +889,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player:
-    grupo: 
-    numList: 0
+    valid: 0
+    token: 
 --- !u!1 &930618723
 GameObject:
   m_ObjectHideFlags: 0
