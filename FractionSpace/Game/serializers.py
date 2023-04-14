@@ -32,5 +32,9 @@ class GraficaPartidaSerializar(serializers.ModelSerializer):
         fields = ('fecha_inicio', 'fecha_fin', 'nivel')
 
 class GraficaSerializer(serializers.Serializer):
-    usuario = Usuario
-    partida = Partida
+    nombre = serializers.CharField(max_length = 30)
+    fecha_fin = serializers.DateField()
+    puntaje = serializers.IntegerField()
+    grupo = serializers.CharField(max_length = 1)
+    nivel = serializers.IntegerField()
+    
