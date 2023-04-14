@@ -121,3 +121,6 @@ FractionSpaceCopy/Library/SourceAssetDB
 FractionSpaceCopy/Logs/AssetImportWorker0.log
 FractionSpaceCopy/Logs/shadercompiler-AssetImportWorker0.log
 FractionSpaceCopy/Temp/UnityLockfile
+
+# File of Visual Studio
+./.DS_Store
