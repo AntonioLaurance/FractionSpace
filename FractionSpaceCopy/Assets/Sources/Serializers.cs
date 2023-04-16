@@ -4,8 +4,9 @@ using UnityEngine;
 
 [System.Serializable]
 
-public class Verify
+public class Player
 {
-    public bool valid;
-    public string token;
+    public string grupo;
+    public int numList;
 }
+

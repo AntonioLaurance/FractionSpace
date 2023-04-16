@@ -13,13 +13,6 @@ public class WebRequest : MonoBehaviour
     public TMP_InputField tmp_lista;
 
 
-    IEnumerator LoginWeb()
-    {
-        string grupo = tmp_grupo.text;
-        string lista = tmp_lista.text;
-
-    }
-
     // Start is called before the first frame update
     void Start()
     {
@@ -30,5 +23,10 @@ public class WebRequest : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void Upload()
+    {
+
     }
 }
