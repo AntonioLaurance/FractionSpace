@@ -889,8 +889,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player:
-    valid: 0
-    token: 
+    grupo: 0
+    numList: 0
 --- !u!1 &930618723
 GameObject:
   m_ObjectHideFlags: 0
@@ -1244,10 +1244,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 421395867487799088, guid: 6433c3de5242f41c59cfc627ad45c1fd, type: 3}
-        m_TargetAssemblyTypeName: BotonInicio, Assembly-CSharp
-        m_MethodName: CambiaAEscena
-        m_Mode: 5
+      - m_Target: {fileID: 268293691}
+        m_TargetAssemblyTypeName: WebRequest, Assembly-CSharp
+        m_MethodName: auth
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
