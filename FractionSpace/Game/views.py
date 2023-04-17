@@ -18,7 +18,7 @@ def index(request):
 # En este endpoint se validá la existencia de un usuario para el inicio de sesión
 @csrf_exempt
 def auth(request):
-    body_unicode = request.body.decode('utf-8')
+    body_unicode = request.POST['player']
     body = loads(body_unicode)
 
     # Elements of our JSON
