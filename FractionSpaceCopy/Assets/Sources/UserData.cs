@@ -6,6 +6,7 @@ public class UserData : MonoBehaviour
 {
     // Datos del jugador
     public Player player;
+    public Verify verify;
 
     // Start is called before the first frame update
     void Start()

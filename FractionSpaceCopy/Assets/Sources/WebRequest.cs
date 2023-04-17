@@ -27,8 +27,15 @@ public class WebRequest : MonoBehaviour
         // 2. Obtener una referencia al UserData dentro de User
         UserData ud = persist.GetComponent<UserData>();
 
-        ud.player.grupo = char.Parse(grupo);
+        // Definimos los atributos del jugador
+        ud.player.grupo = grupo;
         ud.player.numList = System.Int32.Parse(lista);
+
+        // Serializamos
+        string message = JsonUtility.ToJson(ud.player);
+
+        // Enviamos objeto serializado al servidor 
+        StartCoroutine(LoginWeb(message));
 
         // Desplegamos el nivel 1
         SceneManager.LoadScene("Nivel 1");
@@ -41,10 +48,10 @@ public class WebRequest : MonoBehaviour
         string grupo = tmp_grupo.text;
         int lista = System.Int32.Parse(tmp_lista.text);
 
-        StartCoroutine(LoginWeb(grupo, lista));
+        // StartCoroutine(LoginWeb(grupo, lista));
     }
 
-    IEnumerator LoginWeb(string grupo, int numList)
+    IEnumerator LoginWeb(string data)
     {
         Debug.Log("Dentro de LoginWeb");
 
@@ -56,11 +63,12 @@ public class WebRequest : MonoBehaviour
         WWWForm form = new WWWForm();
 
         // Agregamos atributos a nuestro JSON
-        form.AddField("numList", numList);
-        form.AddField("group", grupo);
+        form.AddField("player", data);
+        // form.AddField("group", grupo);
 
         // Imprimimos formulario que enviamos
         Debug.Log(form.data);
+        Debug.Log(data);
 
         // Método POST
         using (UnityWebRequest www = UnityWebRequest.Post("http://127.0.0.1:8000/auth", form))
@@ -68,7 +76,7 @@ public class WebRequest : MonoBehaviour
             yield return www.SendWebRequest();
 
             // Checamos si hay error
-            if(www.result != UnityWebRequest.Result.Success)
+            if (www.result != UnityWebRequest.Result.Success)
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
@@ -81,6 +89,7 @@ public class WebRequest : MonoBehaviour
                 // Deserialización
                 Verify u = JsonUtility.FromJson<Verify>(txt);
 
+                // Imprimimos datos de lo que recibimos
                 Debug.Log(u.valid);
                 Debug.Log(u.token);
 
