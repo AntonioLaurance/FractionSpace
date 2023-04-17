@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class Player
 {
-    public char grupo;
+    public string grupo;
     public int numList;
-    // public string token;
 }
+
