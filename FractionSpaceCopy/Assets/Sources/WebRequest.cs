@@ -28,7 +28,7 @@ public class WebRequest : MonoBehaviour
         UserData ud = persist.GetComponent<UserData>();
 
         // Definimos los atributos del jugador
-        ud.player.grupo = grupo;
+        ud.player.group = grupo;
         ud.player.numList = System.Int32.Parse(lista);
 
         // Serializamos
@@ -36,19 +36,31 @@ public class WebRequest : MonoBehaviour
 
         // Enviamos objeto serializado al servidor 
         StartCoroutine(LoginWeb(message));
-
-        // Desplegamos el nivel 1
-        SceneManager.LoadScene("Nivel 1");
     }
 
 
-    public void Auth()
+    public void Auth(bool valid, string token)
     {
-        // Obtenemos el texto de lo ingresado en nuestra interfaz gráfica (GUI)
-        string grupo = tmp_grupo.text;
-        int lista = System.Int32.Parse(tmp_lista.text);
+        // 1. Obtener referencia al game object vacío
+        GameObject persist = GameObject.Find("User");
 
-        // StartCoroutine(LoginWeb(grupo, lista));
+        // 2. Obtener una referencia al UserData dentro de User
+        UserData ud = persist.GetComponent<UserData>();
+
+        // Definimos los atributos de verificación
+        ud.verify.valid = valid;
+        ud.verify.token = token;
+
+        if(token != null)
+        {
+            // Desplegamos el nivel 1
+            SceneManager.LoadScene("Nivel 1");
+        }
+        else
+        {
+            // Mandamos error
+            Debug.Log("Usuario no válido.");
+        }
     }
 
     IEnumerator LoginWeb(string data)
@@ -83,6 +95,7 @@ public class WebRequest : MonoBehaviour
             }
             else
             {
+                Debug.Log("Envio de información de usuario exitosa");
                 string txt = www.downloadHandler.text;
                 Debug.Log(txt);         // raw text
 
@@ -93,8 +106,7 @@ public class WebRequest : MonoBehaviour
                 Debug.Log(u.valid);
                 Debug.Log(u.token);
 
-                // Cambiamos de escena
-                LevelClick();
+                Auth(u.valid, u.token);
             }
         }
     }
