@@ -4,12 +4,10 @@ using UnityEngine;
 
 [System.Serializable]
 
-public class Verify
+public class Player
 {
-<<<<<<< Updated upstream
     public char grupo;
     public int numList;
-    // public string token;
 }
 
 [System.Serializable]
@@ -19,8 +17,3 @@ public class Verify
     public bool valid;
     public string token;
 }
-=======
-    public bool valid;
-    public string token;
-}
->>>>>>> Stashed changes
