@@ -10,3 +10,11 @@ public class Player
     public int numList;
     // public string token;
 }
+
+[System.Serializable]
+
+public class Verify
+{
+    public bool valid;
+    public string token;
+}
