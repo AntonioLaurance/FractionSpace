@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
-using UnityEngine.ScenaManagement;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class Login : MonoBehaviour
@@ -12,7 +12,7 @@ public class Login : MonoBehaviour
     public TMP_InputField tmp_lista;
 
     // Se activa cada vez que se oprime el botón
-    public void Login()
+    public void LoginWeb()
     {
         // Obtenemos el texto de lo ingresado en nuestra interfaz gráfica (GUI)
         string grupo = tmp_grupo.text;
