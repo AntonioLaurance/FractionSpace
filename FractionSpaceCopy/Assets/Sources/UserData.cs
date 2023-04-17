@@ -5,7 +5,7 @@ using UnityEngine;
 public class UserData : MonoBehaviour
 {
     // Datos del jugador
-    public Verify player;
+    public Player player;
 
     // Start is called before the first frame update
     void Start()
