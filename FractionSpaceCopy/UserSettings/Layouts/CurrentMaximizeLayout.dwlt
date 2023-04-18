@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 1186
+  controlID: 8030
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 1187
+  controlID: 8031
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 1188
+  controlID: 8032
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2a5e0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 72ecfffff0edffffd0efffff4cf2ffff22f4ffff0cf6ffff08f8ffff2cfbffff
+      m_SelectedIDs: 1e830000
+      m_LastClickedID: 33566
+      m_ExpandedIDs: 0cebffff2cfbfffff4ffffffc4810000d2810000e08100000a8200002c82000036820000448200005282000076820000a4820000d2820000da820000f0820000fe82000044830000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -706,13 +706,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Sources
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 70
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Sources
   m_LastFoldersGridSize: 70
   m_LastProjectPath: "/Users/ricky/Desktop/Apuntes/Universidad/Cuarto Semestre/Construccio\u0301n
     de software y toma de decisiones/FractionSpace/FractionSpaceCopy"
@@ -720,9 +720,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fc5d0000
-    m_LastClickedID: 24060
-    m_ExpandedIDs: 00000000fa5d000000ca9a3b
+    m_SelectedIDs: 0c6c0000
+    m_LastClickedID: 27660
+    m_ExpandedIDs: 00000000f85d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -775,8 +775,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 2a5e0000
-    m_LastClickedInstanceID: 24106
+    m_SelectedInstanceIDs: 1e830000
+    m_LastClickedInstanceID: 33566
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000a65d0000b25d0000b45d0000a85d0000ae5d0000ac5d000000000000
     m_RenameOverlay:
@@ -882,8 +882,8 @@ MonoBehaviour:
     y: 0
     width: 339.5
     height: 727
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}

@@ -51,7 +51,7 @@ public class WebRequest : MonoBehaviour
         ud.verify.valid = valid;
         ud.verify.token = token;
 
-        if(token != null)
+        if(token != "")
         {
             // Desplegamos el nivel 1
             SceneManager.LoadScene("Nivel 1");
@@ -65,21 +65,11 @@ public class WebRequest : MonoBehaviour
 
     IEnumerator LoginWeb(string data)
     {
-        Debug.Log("Dentro de LoginWeb");
-
-        // Establecemos encabezado
-        Dictionary<string, string> headers = new Dictionary<string, string>();
-        headers.Add("Content-Type", "application/json");
-
         // Simulamos un formulario web
         WWWForm form = new WWWForm();
-
-        // Agregamos atributos a nuestro JSON
         form.AddField("player", data);
-        // form.AddField("group", grupo);
 
         // Imprimimos formulario que enviamos
-        Debug.Log(form.data);
         Debug.Log(data);
 
         // Método POST
