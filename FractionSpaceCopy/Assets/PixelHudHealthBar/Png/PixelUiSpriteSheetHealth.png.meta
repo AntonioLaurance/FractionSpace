@@ -1,0 +1,2584 @@
+fileFormatVersion: 2
+guid: 534f177a34435294792055413c5d184f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6941414686799400555
+    second: PixelUiSpriteSheetHealth_0
+  - first:
+      213: -6381016065763080279
+    second: PixelUiSpriteSheetHealth_1
+  - first:
+      213: -7908508331554863925
+    second: PixelUiSpriteSheetHealth_2
+  - first:
+      213: 3416469220043572403
+    second: PixelUiSpriteSheetHealth_3
+  - first:
+      213: -6588312279981937566
+    second: PixelUiSpriteSheetHealth_4
+  - first:
+      213: -3342445675019003596
+    second: PixelUiSpriteSheetHealth_5
+  - first:
+      213: -5977409963195084438
+    second: PixelUiSpriteSheetHealth_6
+  - first:
+      213: 2614460665373142563
+    second: PixelUiSpriteSheetHealth_7
+  - first:
+      213: 4571309181099549216
+    second: PixelUiSpriteSheetHealth_8
+  - first:
+      213: -5971171901977988769
+    second: PixelUiSpriteSheetHealth_9
+  - first:
+      213: 8523244914156855126
+    second: PixelUiSpriteSheetHealth_10
+  - first:
+      213: 3953539601957056177
+    second: PixelUiSpriteSheetHealth_11
+  - first:
+      213: -4751777584331740779
+    second: PixelUiSpriteSheetHealth_12
+  - first:
+      213: -3186559983312508446
+    second: PixelUiSpriteSheetHealth_13
+  - first:
+      213: -4202386487141170958
+    second: PixelUiSpriteSheetHealth_14
+  - first:
+      213: 8600563478160571664
+    second: PixelUiSpriteSheetHealth_15
+  - first:
+      213: 6705453968457981009
+    second: PixelUiSpriteSheetHealth_16
+  - first:
+      213: 5712232222768004881
+    second: PixelUiSpriteSheetHealth_17
+  - first:
+      213: 8410183306092732684
+    second: PixelUiSpriteSheetHealth_18
+  - first:
+      213: -3727323215412378638
+    second: PixelUiSpriteSheetHealth_19
+  - first:
+      213: 5287742154814551282
+    second: PixelUiSpriteSheetHealth_20
+  - first:
+      213: 4183621395234773151
+    second: PixelUiSpriteSheetHealth_21
+  - first:
+      213: 3112323096419940598
+    second: PixelUiSpriteSheetHealth_22
+  - first:
+      213: -5680081997878014617
+    second: PixelUiSpriteSheetHealth_23
+  - first:
+      213: 6189124735173306432
+    second: PixelUiSpriteSheetHealth_24
+  - first:
+      213: -5486791028190461006
+    second: PixelUiSpriteSheetHealth_25
+  - first:
+      213: 5509244699078260137
+    second: PixelUiSpriteSheetHealth_26
+  - first:
+      213: -7400723867625127770
+    second: PixelUiSpriteSheetHealth_27
+  - first:
+      213: 3222974715138899635
+    second: PixelUiSpriteSheetHealth_28
+  - first:
+      213: 2548864366272842772
+    second: PixelUiSpriteSheetHealth_29
+  - first:
+      213: -7113023957456668697
+    second: PixelUiSpriteSheetHealth_30
+  - first:
+      213: -25117720032547323
+    second: PixelUiSpriteSheetHealth_31
+  - first:
+      213: -1501422294218605159
+    second: PixelUiSpriteSheetHealth_32
+  - first:
+      213: -6290630858545342212
+    second: PixelUiSpriteSheetHealth_33
+  - first:
+      213: -2763723707465693540
+    second: PixelUiSpriteSheetHealth_34
+  - first:
+      213: 5755328677466880906
+    second: PixelUiSpriteSheetHealth_35
+  - first:
+      213: -6695685678748073278
+    second: PixelUiSpriteSheetHealth_36
+  - first:
+      213: -1380656811190459762
+    second: PixelUiSpriteSheetHealth_37
+  - first:
+      213: -3075233132821545356
+    second: PixelUiSpriteSheetHealth_38
+  - first:
+      213: -8818790995108474980
+    second: PixelUiSpriteSheetHealth_39
+  - first:
+      213: 8121796924279653122
+    second: PixelUiSpriteSheetHealth_40
+  - first:
+      213: -5345902171376073681
+    second: PixelUiSpriteSheetHealth_41
+  - first:
+      213: 344412829110169730
+    second: PixelUiSpriteSheetHealth_42
+  - first:
+      213: 2141797243016146600
+    second: PixelUiSpriteSheetHealth_43
+  - first:
+      213: 837145348244509722
+    second: PixelUiSpriteSheetHealth_44
+  - first:
+      213: -5405437427252213774
+    second: PixelUiSpriteSheetHealth_45
+  - first:
+      213: -6727511965966588269
+    second: PixelUiSpriteSheetHealth_46
+  - first:
+      213: 8439374646774161372
+    second: PixelUiSpriteSheetHealth_47
+  - first:
+      213: 1652027562712223656
+    second: PixelUiSpriteSheetHealth_48
+  - first:
+      213: -6995774508700028827
+    second: PixelUiSpriteSheetHealth_49
+  - first:
+      213: 2962875526010694101
+    second: PixelUiSpriteSheetHealth_50
+  - first:
+      213: 2233834466221799088
+    second: PixelUiSpriteSheetHealth_51
+  - first:
+      213: 9100144464167791387
+    second: PixelUiSpriteSheetHealth_52
+  - first:
+      213: 2879682137494262622
+    second: PixelUiSpriteSheetHealth_53
+  - first:
+      213: 8915972971266752890
+    second: PixelUiSpriteSheetHealth_54
+  - first:
+      213: 203544632079296436
+    second: PixelUiSpriteSheetHealth_55
+  - first:
+      213: -7534050059892329537
+    second: PixelUiSpriteSheetHealth_56
+  - first:
+      213: 4341269139889191971
+    second: PixelUiSpriteSheetHealth_57
+  - first:
+      213: -4372839229899532947
+    second: PixelUiSpriteSheetHealth_58
+  - first:
+      213: -2155828591843431465
+    second: PixelUiSpriteSheetHealth_59
+  - first:
+      213: 7875629434638222441
+    second: PixelUiSpriteSheetHealth_60
+  - first:
+      213: 8898527460003658612
+    second: PixelUiSpriteSheetHealth_61
+  - first:
+      213: 1879085480369474593
+    second: PixelUiSpriteSheetHealth_62
+  - first:
+      213: 2548077679740647211
+    second: PixelUiSpriteSheetHealth_63
+  - first:
+      213: 816747796435836090
+    second: PixelUiSpriteSheetHealth_64
+  - first:
+      213: -6610194947503117204
+    second: PixelUiSpriteSheetHealth_65
+  - first:
+      213: -4833461286290623183
+    second: PixelUiSpriteSheetHealth_66
+  - first:
+      213: 4408561881798495044
+    second: PixelUiSpriteSheetHealth_67
+  - first:
+      213: -3147950289051570535
+    second: PixelUiSpriteSheetHealth_68
+  - first:
+      213: 7432624866101558548
+    second: PixelUiSpriteSheetHealth_69
+  - first:
+      213: -7170652751839223605
+    second: PixelUiSpriteSheetHealth_70
+  - first:
+      213: -2202726460662969496
+    second: PixelUiSpriteSheetHealth_71
+  - first:
+      213: -2216558780126757715
+    second: PixelUiSpriteSheetHealth_72
+  - first:
+      213: -5170772159633702934
+    second: PixelUiSpriteSheetHealth_73
+  - first:
+      213: 5604391247617599824
+    second: PixelUiSpriteSheetHealth_74
+  - first:
+      213: -5304158795350843641
+    second: PixelUiSpriteSheetHealth_75
+  - first:
+      213: 4234399167178904283
+    second: PixelUiSpriteSheetHealth_76
+  - first:
+      213: 5671328239855218921
+    second: PixelUiSpriteSheetHealth_77
+  - first:
+      213: 2812275007139338806
+    second: PixelUiSpriteSheetHealth_78
+  - first:
+      213: 4016078699636242081
+    second: PixelUiSpriteSheetHealth_79
+  - first:
+      213: -4411015725069577836
+    second: PixelUiSpriteSheetHealth_80
+  - first:
+      213: 94004648940882837
+    second: PixelUiSpriteSheetHealth_81
+  - first:
+      213: 3565736397237820014
+    second: PixelUiSpriteSheetHealth_82
+  - first:
+      213: 8829500068659008576
+    second: PixelUiSpriteSheetHealth_83
+  - first:
+      213: 6725025239193192181
+    second: PixelUiSpriteSheetHealth_84
+  - first:
+      213: -5667386709503119366
+    second: PixelUiSpriteSheetHealth_85
+  - first:
+      213: -3177845831128627075
+    second: PixelUiSpriteSheetHealth_86
+  - first:
+      213: -1340989465140370675
+    second: PixelUiSpriteSheetHealth_87
+  - first:
+      213: 123796239898777646
+    second: PixelUiSpriteSheetHealth_88
+  - first:
+      213: 5989587069638750314
+    second: PixelUiSpriteSheetHealth_89
+  - first:
+      213: -7498926624358026627
+    second: PixelUiSpriteSheetHealth_90
+  - first:
+      213: -6554396362137637021
+    second: PixelUiSpriteSheetHealth_91
+  - first:
+      213: -2700433265619443056
+    second: PixelUiSpriteSheetHealth_92
+  - first:
+      213: -7972700887408295034
+    second: PixelUiSpriteSheetHealth_93
+  - first:
+      213: 5721601137258405806
+    second: PixelUiSpriteSheetHealth_94
+  - first:
+      213: 1275289740059482673
+    second: PixelUiSpriteSheetHealth_95
+  - first:
+      213: -9196036971139763246
+    second: PixelUiSpriteSheetHealth_96
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59174aa9e142baf90800000000000000
+      internalID: -6941414686799400555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7812e32b31277a0800000000000000
+      internalID: -6381016065763080279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc48472d2955f3290800000000000000
+      internalID: -7908508331554863925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_3
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4c0c687acb96f20800000000000000
+      internalID: 3416469220043572403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c255243ec9194a0800000000000000
+      internalID: -6588312279981937566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_5
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439937b1e5f3d91d0800000000000000
+      internalID: -3342445675019003596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6150e2ee49fb0da0800000000000000
+      internalID: -5977409963195084438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_7
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e2cc68f1e684420800000000000000
+      internalID: 2614460665373142563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_8
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022abe9fa7d807f30800000000000000
+      internalID: 4571309181099549216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_9
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51fec1bac2222da0800000000000000
+      internalID: -5971171901977988769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_10
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f59f16716a84670800000000000000
+      internalID: 8523244914156855126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_11
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bee61c325bcdd630800000000000000
+      internalID: 3953539601957056177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_12
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5992e3a867b4e0eb0800000000000000
+      internalID: -4751777584331740779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_13
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9ee2b049017c3d0800000000000000
+      internalID: -3186559983312508446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_14
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f08c0151cf1ea5c0800000000000000
+      internalID: -4202386487141170958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d75f76ae65b5770800000000000000
+      internalID: 8600563478160571664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cdba77bde8e0d50800000000000000
+      internalID: 6705453968457981009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_17
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f70a021fce54f40800000000000000
+      internalID: 5712232222768004881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_18
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01e3976829f6b470800000000000000
+      internalID: 8410183306092732684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_19
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f34746a843e54cc0800000000000000
+      internalID: -3727323215412378638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_20
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f474916975d16940800000000000000
+      internalID: 5287742154814551282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_21
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9851b14e753f0a30800000000000000
+      internalID: 4183621395234773151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_22
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8ba5ccd51313b20800000000000000
+      internalID: 3112323096419940598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_23
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dc36d648b4c21b0800000000000000
+      internalID: -5680081997878014617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_24
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048a69eb72034e550800000000000000
+      internalID: 6189124735173306432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_25
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b348ef41a00bd3b0800000000000000
+      internalID: -5486791028190461006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_26
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a573455dd4c47c40800000000000000
+      internalID: 5509244699078260137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_27
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a003756ad85b4990800000000000000
+      internalID: -7400723867625127770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_28
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be7be76d6e4abc20800000000000000
+      internalID: 3222974715138899635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_29
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1791
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c085cf2a26f5320800000000000000
+      internalID: 2548864366272842772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7b3f8a566794d90800000000000000
+      internalID: -7113023957456668697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e64e31193c6aff0800000000000000
+      internalID: -25117720032547323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_32
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d7f37d060e92be0800000000000000
+      internalID: -1501422294218605159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_33
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf85b47309033b8a0800000000000000
+      internalID: -6290630858545342212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_34
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c968e2f4ee745a9d0800000000000000
+      internalID: -2763723707465693540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_35
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b380a60f80fdf40800000000000000
+      internalID: 5755328677466880906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_36
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c20d86b9552413a0800000000000000
+      internalID: -6695685678748073278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_37
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82e44cf1fbe6dce0800000000000000
+      internalID: -1380656811190459762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_38
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ef8ac42c39255d0800000000000000
+      internalID: -3075233132821545356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_39
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f452c505c5d9580800000000000000
+      internalID: -8818790995108474980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_40
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2038c81854b66b070800000000000000
+      internalID: 8121796924279653122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_41
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24c3278c4a8fc5b0800000000000000
+      internalID: -5345902171376073681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_42
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280f23fa4a997c400800000000000000
+      internalID: 344412829110169730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_43
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae63eaae3139bd10800000000000000
+      internalID: 2141797243016146600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_44
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1662
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a141c7342432e9b00800000000000000
+      internalID: 837145348244509722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1533
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7c7059c470cf4b0800000000000000
+      internalID: -5405437427252213774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_46
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3962f56c28313a2a0800000000000000
+      internalID: -6727511965966588269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_47
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1532
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf596b078eae1570800000000000000
+      internalID: 8439374646774161372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_48
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1533
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afcd92c05e2de610800000000000000
+      internalID: 1652027562712223656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_49
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1407
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560b33846240aee90800000000000000
+      internalID: -6995774508700028827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_50
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1407
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9e099c79f3e1920800000000000000
+      internalID: 2962875526010694101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_51
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1407
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6bc269c9c200f10800000000000000
+      internalID: 2233834466221799088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_52
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 1407
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b657fec253a4e70800000000000000
+      internalID: 9100144464167791387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_53
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 1407
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53126795afa6f720800000000000000
+      internalID: 2879682137494262622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_54
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1278
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71c653bd26ebbb70800000000000000
+      internalID: 8915972971266752890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_55
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1277
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b72603b3c223d200800000000000000
+      internalID: 203544632079296436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_56
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1278
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb37b1c336da17790800000000000000
+      internalID: -7534050059892329537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_57
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1278
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cf57d18494f3c30800000000000000
+      internalID: 4341269139889191971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_58
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1277
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6512f183ed8053c0800000000000000
+      internalID: -4372839229899532947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_59
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1141
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbaa8a5155f412e0800000000000000
+      internalID: -2155828591843431465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_60
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1138
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964c8327e3bdb4d60800000000000000
+      internalID: 7875629434638222441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_61
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1137
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bb395149bed7b70800000000000000
+      internalID: 8898527460003658612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_62
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1137
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c4400e94ad31a10800000000000000
+      internalID: 1879085480369474593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_63
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1134
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27fa0146279c5320800000000000000
+      internalID: 2548077679740647211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_64
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 991
+        width: 384
+        height: 112
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc14a52bcba55b00800000000000000
+      internalID: 816747796435836090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_65
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 990
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6caef1b7bed344a0800000000000000
+      internalID: -6610194947503117204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_66
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 991
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1357b03a1981cecb0800000000000000
+      internalID: -4833461286290623183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_67
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 991
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b4de68cab5e2d30800000000000000
+      internalID: 4408561881798495044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_68
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 839
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e2e7204eb3054d0800000000000000
+      internalID: -3147950289051570535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_69
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 839
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41df7bc9fecf52760800000000000000
+      internalID: 7432624866101558548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_70
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 841
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc022fe5059bc7c90800000000000000
+      internalID: -7170652751839223605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_71
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 839
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b84de54f75e61e0800000000000000
+      internalID: -2202726460662969496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_72
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 838
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac75c688833d31e0800000000000000
+      internalID: -2216558780126757715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_73
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 683
+        width: 380
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefbd82ed1abd38b0800000000000000
+      internalID: -5170772159633702934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_74
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 683
+        width: 380
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0592e88752cc6cd40800000000000000
+      internalID: 5604391247617599824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_75
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 681
+        width: 380
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f59d2ada7d366b0800000000000000
+      internalID: -5304158795350843641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_76
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 680
+        width: 380
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd298e49b9b93ca30800000000000000
+      internalID: 4234399167178904283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_77
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 681
+        width: 380
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e036357cfa94be40800000000000000
+      internalID: 5671328239855218921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_78
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 534
+        width: 380
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63adf3b0835370720800000000000000
+      internalID: 2812275007139338806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_79
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 535
+        width: 384
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6b4d99c4afbb730800000000000000
+      internalID: 4016078699636242081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_80
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 538
+        width: 384
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491d090919ce8c2c0800000000000000
+      internalID: -4411015725069577836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_81
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 538
+        width: 384
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b4b5beab8fd4100800000000000000
+      internalID: 94004648940882837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_82
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 539
+        width: 384
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a9a087c5a0c7130800000000000000
+      internalID: 3565736397237820014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_83
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 370
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04415b0288fa88a70800000000000000
+      internalID: 8829500068659008576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_84
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 368
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f685a703d6145d50800000000000000
+      internalID: 6725025239193192181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_85
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 368
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affeb4790d56951b0800000000000000
+      internalID: -5667386709503119366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_86
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 369
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d784f94bd0606e3d0800000000000000
+      internalID: -3177845831128627075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_87
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 370
+        width: 384
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0364c2bf29d36de0800000000000000
+      internalID: -1340989465140370675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_88
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 239
+        width: 328
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2812b73600d7b100800000000000000
+      internalID: 123796239898777646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_89
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 242
+        width: 328
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a603715a4b94f1350800000000000000
+      internalID: 5989587069638750314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_90
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 242
+        width: 328
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72bb6657f57ee790800000000000000
+      internalID: -7498926624358026627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_91
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 248
+        width: 328
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f6cad3c3b1a05a0800000000000000
+      internalID: -6554396362137637021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_92
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 106
+        width: 368
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092ea1f9042268ad0800000000000000
+      internalID: -2700433265619443056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_93
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 113
+        width: 368
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6834699b8c64b5190800000000000000
+      internalID: -7972700887408295034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_94
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 111
+        width: 368
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf12c48be5376f40800000000000000
+      internalID: 5721601137258405806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_95
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 111
+        width: 368
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a12f5034db2b110800000000000000
+      internalID: 1275289740059482673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PixelUiSpriteSheetHealth_96
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 108
+        width: 368
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3fad1f81d116080800000000000000
+      internalID: -9196036971139763246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7fbea3e24f9b480469a076546deb0902
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PixelUiSpriteSheetHealth_4: -6588312279981937566
+      PixelUiSpriteSheetHealth_83: 8829500068659008576
+      PixelUiSpriteSheetHealth_71: -2202726460662969496
+      PixelUiSpriteSheetHealth_25: -5486791028190461006
+      PixelUiSpriteSheetHealth_34: -2763723707465693540
+      PixelUiSpriteSheetHealth_26: 5509244699078260137
+      PixelUiSpriteSheetHealth_56: -7534050059892329537
+      PixelUiSpriteSheetHealth_40: 8121796924279653122
+      PixelUiSpriteSheetHealth_96: -9196036971139763246
+      PixelUiSpriteSheetHealth_29: 2548864366272842772
+      PixelUiSpriteSheetHealth_57: 4341269139889191971
+      PixelUiSpriteSheetHealth_9: -5971171901977988769
+      PixelUiSpriteSheetHealth_53: 2879682137494262622
+      PixelUiSpriteSheetHealth_76: 4234399167178904283
+      PixelUiSpriteSheetHealth_85: -5667386709503119366
+      PixelUiSpriteSheetHealth_41: -5345902171376073681
+      PixelUiSpriteSheetHealth_82: 3565736397237820014
+      PixelUiSpriteSheetHealth_43: 2141797243016146600
+      PixelUiSpriteSheetHealth_79: 4016078699636242081
+      PixelUiSpriteSheetHealth_14: -4202386487141170958
+      PixelUiSpriteSheetHealth_0: -6941414686799400555
+      PixelUiSpriteSheetHealth_13: -3186559983312508446
+      PixelUiSpriteSheetHealth_75: -5304158795350843641
+      PixelUiSpriteSheetHealth_39: -8818790995108474980
+      PixelUiSpriteSheetHealth_88: 123796239898777646
+      PixelUiSpriteSheetHealth_21: 4183621395234773151
+      PixelUiSpriteSheetHealth_44: 837145348244509722
+      PixelUiSpriteSheetHealth_45: -5405437427252213774
+      PixelUiSpriteSheetHealth_54: 8915972971266752890
+      PixelUiSpriteSheetHealth_81: 94004648940882837
+      PixelUiSpriteSheetHealth_58: -4372839229899532947
+      PixelUiSpriteSheetHealth_77: 5671328239855218921
+      PixelUiSpriteSheetHealth_32: -1501422294218605159
+      PixelUiSpriteSheetHealth_36: -6695685678748073278
+      PixelUiSpriteSheetHealth_63: 2548077679740647211
+      PixelUiSpriteSheetHealth_47: 8439374646774161372
+      PixelUiSpriteSheetHealth_20: 5287742154814551282
+      PixelUiSpriteSheetHealth_46: -6727511965966588269
+      PixelUiSpriteSheetHealth_74: 5604391247617599824
+      PixelUiSpriteSheetHealth_65: -6610194947503117204
+      PixelUiSpriteSheetHealth_78: 2812275007139338806
+      PixelUiSpriteSheetHealth_48: 1652027562712223656
+      PixelUiSpriteSheetHealth_19: -3727323215412378638
+      PixelUiSpriteSheetHealth_87: -1340989465140370675
+      PixelUiSpriteSheetHealth_1: -6381016065763080279
+      PixelUiSpriteSheetHealth_59: -2155828591843431465
+      PixelUiSpriteSheetHealth_90: -7498926624358026627
+      PixelUiSpriteSheetHealth_33: -6290630858545342212
+      PixelUiSpriteSheetHealth_37: -1380656811190459762
+      PixelUiSpriteSheetHealth_62: 1879085480369474593
+      PixelUiSpriteSheetHealth_84: 6725025239193192181
+      PixelUiSpriteSheetHealth_51: 2233834466221799088
+      PixelUiSpriteSheetHealth_12: -4751777584331740779
+      PixelUiSpriteSheetHealth_70: -7170652751839223605
+      PixelUiSpriteSheetHealth_60: 7875629434638222441
+      PixelUiSpriteSheetHealth_6: -5977409963195084438
+      PixelUiSpriteSheetHealth_86: -3177845831128627075
+      PixelUiSpriteSheetHealth_42: 344412829110169730
+      PixelUiSpriteSheetHealth_50: 2962875526010694101
+      PixelUiSpriteSheetHealth_7: 2614460665373142563
+      PixelUiSpriteSheetHealth_30: -7113023957456668697
+      PixelUiSpriteSheetHealth_31: -25117720032547323
+      PixelUiSpriteSheetHealth_15: 8600563478160571664
+      PixelUiSpriteSheetHealth_2: -7908508331554863925
+      PixelUiSpriteSheetHealth_94: 5721601137258405806
+      PixelUiSpriteSheetHealth_3: 3416469220043572403
+      PixelUiSpriteSheetHealth_73: -5170772159633702934
+      PixelUiSpriteSheetHealth_89: 5989587069638750314
+      PixelUiSpriteSheetHealth_49: -6995774508700028827
+      PixelUiSpriteSheetHealth_55: 203544632079296436
+      PixelUiSpriteSheetHealth_69: 7432624866101558548
+      PixelUiSpriteSheetHealth_80: -4411015725069577836
+      PixelUiSpriteSheetHealth_35: 5755328677466880906
+      PixelUiSpriteSheetHealth_38: -3075233132821545356
+      PixelUiSpriteSheetHealth_16: 6705453968457981009
+      PixelUiSpriteSheetHealth_11: 3953539601957056177
+      PixelUiSpriteSheetHealth_72: -2216558780126757715
+      PixelUiSpriteSheetHealth_23: -5680081997878014617
+      PixelUiSpriteSheetHealth_68: -3147950289051570535
+      PixelUiSpriteSheetHealth_17: 5712232222768004881
+      PixelUiSpriteSheetHealth_61: 8898527460003658612
+      PixelUiSpriteSheetHealth_93: -7972700887408295034
+      PixelUiSpriteSheetHealth_10: 8523244914156855126
+      PixelUiSpriteSheetHealth_64: 816747796435836090
+      PixelUiSpriteSheetHealth_5: -3342445675019003596
+      PixelUiSpriteSheetHealth_8: 4571309181099549216
+      PixelUiSpriteSheetHealth_66: -4833461286290623183
+      PixelUiSpriteSheetHealth_91: -6554396362137637021
+      PixelUiSpriteSheetHealth_18: 8410183306092732684
+      PixelUiSpriteSheetHealth_27: -7400723867625127770
+      PixelUiSpriteSheetHealth_22: 3112323096419940598
+      PixelUiSpriteSheetHealth_92: -2700433265619443056
+      PixelUiSpriteSheetHealth_28: 3222974715138899635
+      PixelUiSpriteSheetHealth_95: 1275289740059482673
+      PixelUiSpriteSheetHealth_24: 6189124735173306432
+      PixelUiSpriteSheetHealth_52: 9100144464167791387
+      PixelUiSpriteSheetHealth_67: 4408561881798495044
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
