@@ -15,7 +15,7 @@ public class SLOT : MonoBehaviour, IDropHandler {
     public void OnDrop (PointerEventData eventData){
         if(!item){
             DragHandeler.itemBeingDragged.transform.SetParent (transform);
-            ExecuteEvents.ExecuteHierarchy<IHasChanged>(gameObject,null,(x,y) => x.HasChanged());
+            ExecuteEvents.ExecuteHierarchy<IHasChanged>(gameObject, null, (x,y) => x.HasChanged());
         }
     }
     

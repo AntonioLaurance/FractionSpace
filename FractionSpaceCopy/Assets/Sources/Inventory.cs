@@ -39,40 +39,8 @@ public class Inventory : MonoBehaviour, IHasChanged{
              
                 Debug.Log(element);
                 Debug.Log("Número: " + item.name);
-                // int number = System.Int32.Parse(txt);
 
                 // Asignamos a un elemento de nuestra clase
-                /* 
-                 * if(element == "slot0")
-                {
-                    suma.num1 = System.Int32.Parse(item.name);
-                }
-
-                if (element == "slot1")
-                {
-                    suma.num2 = System.Int32.Parse(item.name);
-                }
-
-                if (element == "slot2")
-                {
-                    suma.num = System.Int32.Parse(item.name);
-                }
-
-                if (element == "slot3")
-                {
-                    suma.den1 = System.Int32.Parse(item.name);
-                }
-
-                if (element == "slot4")
-                {
-                    suma.den2 = System.Int32.Parse(item.name);
-                }
-
-                if (element == "slot5")
-                {
-                    suma.den = System.Int32.Parse(item.name);
-                }
-                */
 
                 // Comprobamos si las 6 fichas ya están puestas
                 if (builder.ToString().Length == 24)
@@ -81,7 +49,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
                     // Debug.Log(number);
 
                     // Obtenemos elementos de la operación de nuestra GUI
-                    GameObject slot0 = GameObject.Find("Canvas/Panel/inventario(1)/slot1");
+                    GameObject slot0 = GameObject.Find("Canvas/Panel/inventario(1)/slot0");
                     suma.numerador1 = System.Int32.Parse(slot0.transform.GetChild(0).name);
 
                     GameObject slot1 = GameObject.Find("Canvas/Panel/inventario(1)/slot1");
@@ -118,7 +86,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
         form.AddField("exercise", json);
 
         // Enviamos al servidor para verificar
-        using (UnityWebRequest www = UnityWebRequest.Post("http://127.0.0.1:8000/suma", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198.1.48:8080/suma", form))
         {
             yield return www.SendWebRequest();
 
@@ -132,7 +100,15 @@ public class Inventory : MonoBehaviour, IHasChanged{
             else
             {
                 string txt = www.downloadHandler.text;
-                Debug.Log(txt);
+                Debug.Log(txt);     // raw text
+
+                // Deserialización
+                Result answer = JsonUtility.FromJson<Result>(txt);
+
+                Debug.Log("Respuesta correcta: " + answer.num + "/" + answer.den);
+                Debug.Log("¿Correcto?: " + answer.correcto);
+                Debug.Log("Desviación: " + answer.devval);
+                Debug.Log("Desviación porcentual: " + answer.devpor + "%");
             }
         }
     }

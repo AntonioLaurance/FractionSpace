@@ -40,6 +40,7 @@ public class CombatCrtl : MonoBehaviour
             {
                 PlayerSelect = 0;
                 turn = false;
+                StartCoroutine(AtackE());
             }
             else PlayerSelect++;
 

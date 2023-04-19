@@ -75,7 +75,7 @@ public class WebRequest : MonoBehaviour
         Debug.Log(data);
 
         // Método POST
-        using (UnityWebRequest www = UnityWebRequest.Post("http://127.0.0.1:8000/auth", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198.1.48:8080/auth", form))
         {
             yield return www.SendWebRequest();
 
