@@ -37,9 +37,13 @@ public class Exercise
 
 public class Result
 {
+    // Respuesta
     public int num;
     public int den;
+
     public bool correcto;
-    public int devpor;
-    public int devval;
+
+    // Desviaciones
+    public float devpor;
+    public float devval;
 }
