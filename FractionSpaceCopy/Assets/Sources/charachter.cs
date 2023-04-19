@@ -33,6 +33,7 @@ public class charachter : MonoBehaviour
     public void Atack()
     {
         StartCoroutine(AnimAtack());
+
         if (type) target = combatCrtl.EnemySelect;
         else target = combatCrtl.PlayerSelect;
         if (combatCrtl.EnemyN >= 0 && combatCrtl.PlayerN >= 0)
