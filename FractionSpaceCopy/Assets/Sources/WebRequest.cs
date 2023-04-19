@@ -84,6 +84,7 @@ public class WebRequest : MonoBehaviour
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
+                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
             }
             else
             {

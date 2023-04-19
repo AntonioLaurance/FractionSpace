@@ -17,3 +17,18 @@ public class Verify
     public bool valid;
     public string token;
 }
+
+[System.Serializable]
+
+public class Exercise
+{
+    // Operadores
+    public int num1;
+    public int den1;
+    public int num2;
+    public int den2;
+
+    // Respuesta
+    public int num;
+    public int den;
+}

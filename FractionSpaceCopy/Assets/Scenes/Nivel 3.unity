@@ -216,7 +216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6667093144548857552, guid: 943ccc731ea9ae346925f18905b64787, type: 3}
       propertyPath: m_Name
-      value: Image0
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 943ccc731ea9ae346925f18905b64787, type: 3}
@@ -234,7 +234,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 684737225679498558, guid: 065efe9f93748e94e91d74c318533034, type: 3}
       propertyPath: m_Name
-      value: Image6
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2331561986008678674, guid: 065efe9f93748e94e91d74c318533034, type: 3}
       propertyPath: m_Pivot.x
@@ -337,7 +337,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2237030707377169266, guid: 01350b5ec4219ca459990b26cbbe0960, type: 3}
       propertyPath: m_Name
-      value: Image4
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8596530079158227341, guid: 01350b5ec4219ca459990b26cbbe0960, type: 3}
       propertyPath: m_Pivot.x
@@ -635,7 +635,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2149993568770546246, guid: 3a7aca2bbaa2a5743923c86c7fd60021, type: 3}
       propertyPath: m_Name
-      value: Image7
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6669232701803078573, guid: 3a7aca2bbaa2a5743923c86c7fd60021, type: 3}
       propertyPath: m_Pivot.x
@@ -2403,7 +2403,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5854922832734471968, guid: 5b2c97cac9029ca4f85551dc45240afd, type: 3}
       propertyPath: m_Name
-      value: Image1
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4933811657700717300, guid: 5b2c97cac9029ca4f85551dc45240afd, type: 3}
@@ -2816,7 +2816,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6658777284356123758, guid: 5f7668da9c2db6a46b8ae84a33b41c9c, type: 3}
       propertyPath: m_Name
-      value: Image5
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6908297714025006593, guid: 5f7668da9c2db6a46b8ae84a33b41c9c, type: 3}
       propertyPath: m_Pivot.x
@@ -3382,7 +3382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7373232529856192961, guid: daaeda4d2453007499f7b91a91c6ae1f, type: 3}
       propertyPath: m_Name
-      value: Image2
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6176932535783205586, guid: daaeda4d2453007499f7b91a91c6ae1f, type: 3}
@@ -3611,6 +3611,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slots: {fileID: 1694425928}
   inventoryText: {fileID: 1874912569}
+  suma:
+    num1: 0
+    den1: 0
+    num2: 0
+    den2: 0
+    num: 0
+    den: 0
 --- !u!1 &1602907084 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2149993568770546246, guid: 3a7aca2bbaa2a5743923c86c7fd60021, type: 3}
@@ -3721,7 +3728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7749543802283492424, guid: 8206b8107df19c0448c174bb4ca6cd12, type: 3}
       propertyPath: m_Name
-      value: Image8
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -3858292004958782997, guid: 8206b8107df19c0448c174bb4ca6cd12, type: 3}
@@ -3884,7 +3891,7 @@ GameObject:
   - component: {fileID: 1694425930}
   - component: {fileID: 1694425929}
   m_Layer: 5
-  m_Name: inventario (1)
+  m_Name: inventario(1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4270,7 +4277,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 747417771229057200, guid: a5bae01248e36d34ca8d01352ea93c95, type: 3}
       propertyPath: m_Name
-      value: Image9
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8983817364148120890, guid: a5bae01248e36d34ca8d01352ea93c95, type: 3}
       propertyPath: m_Pivot.x
@@ -4755,7 +4762,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 235977673774683886, guid: 002327f233cb5e743bddcd0de8b2aaba, type: 3}
       propertyPath: m_Name
-      value: Image3
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7079370248032987571, guid: 002327f233cb5e743bddcd0de8b2aaba, type: 3}
       propertyPath: m_Pivot.x
