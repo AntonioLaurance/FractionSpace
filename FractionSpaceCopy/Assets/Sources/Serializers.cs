@@ -23,12 +23,23 @@ public class Verify
 public class Exercise
 {
     // Operadores
-    public int num1;
-    public int den1;
-    public int num2;
-    public int den2;
+    public int numerador1;
+    public int denominador1;
+    public int numerador2;
+    public int denominador2;
 
     // Respuesta
     public int num;
     public int den;
+}
+
+[System.Serializable]
+
+public class Result
+{
+    public int num;
+    public int den;
+    public bool correcto;
+    public int devpor;
+    public int devval;
 }

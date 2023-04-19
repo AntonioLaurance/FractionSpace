@@ -1,4 +1,5 @@
 using System.Collections;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.EventSystems;
@@ -81,19 +82,19 @@ public class Inventory : MonoBehaviour, IHasChanged{
 
                     // Obtenemos elementos de la operación de nuestra GUI
                     GameObject slot0 = GameObject.Find("Canvas/Panel/inventario(1)/slot1");
-                    suma.num1 = System.Int32.Parse(slot0.transform.GetChild(0).name);
+                    suma.numerador1 = System.Int32.Parse(slot0.transform.GetChild(0).name);
 
                     GameObject slot1 = GameObject.Find("Canvas/Panel/inventario(1)/slot1");
-                    suma.num2 = System.Int32.Parse(slot1.transform.GetChild(0).name);
+                    suma.numerador2 = System.Int32.Parse(slot1.transform.GetChild(0).name);
 
                     GameObject slot2 = GameObject.Find("Canvas/Panel/inventario(1)/slot2");
                     suma.num = System.Int32.Parse(slot2.transform.GetChild(0).name);
 
                     GameObject slot3 = GameObject.Find("Canvas/Panel/inventario(1)/slot3");
-                    suma.den1 = System.Int32.Parse(slot3.transform.GetChild(0).name);
+                    suma.denominador1 = System.Int32.Parse(slot3.transform.GetChild(0).name);
 
                     GameObject slot4 = GameObject.Find("Canvas/Panel/inventario(1)/slot4");
-                    suma.den2 = System.Int32.Parse(slot4.transform.GetChild(0).name);
+                    suma.denominador2 = System.Int32.Parse(slot4.transform.GetChild(0).name);
 
                     GameObject slot5 = GameObject.Find("Canvas/Panel/inventario(1)/slot5");
                     suma.den = System.Int32.Parse(slot5.transform.GetChild(0).name);
@@ -103,17 +104,15 @@ public class Inventory : MonoBehaviour, IHasChanged{
                     Debug.Log(message);
 
                     // Enviamos datos al servidor
-                    SendToServer(message);
+                    StartCoroutine(SendToServer(message));
                 }
             }
         }
         inventoryText.text = builder.ToString();
     }
 
-    IEnumerable SendToServer(string json)
+    IEnumerator SendToServer(string json)
     {
-        Debug.Log("Dentro de SendToServer.");
-
         // Simulamos un formulario web
         WWWForm form = new WWWForm();
         form.AddField("exercise", json);
@@ -128,6 +127,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
+                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
             }
             else
             {
