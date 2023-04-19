@@ -366,8 +366,16 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/BotonInicio.cs"
-"Assets/WebRequest.cs"
+"Assets/Sources/BotonInicio.cs"
+"Assets/Sources/charachter.cs"
+"Assets/Sources/CombatCrtl.cs"
+"Assets/Sources/DragHandeler.cs"
+"Assets/Sources/Inventory.cs"
+"Assets/Sources/Login.cs"
+"Assets/Sources/Serializers.cs"
+"Assets/Sources/SLOT.cs"
+"Assets/Sources/UserData.cs"
+"Assets/Sources/WebRequest.cs"
 -langversion:9.0
 
 /deterministic

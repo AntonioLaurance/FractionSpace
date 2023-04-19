@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
+using UnityEditor;
 using TMPro;
 
 public class WebRequest : MonoBehaviour
@@ -60,6 +61,7 @@ public class WebRequest : MonoBehaviour
         {
             // Mandamos error
             Debug.Log("Usuario no válido.");
+            EditorUtility.DisplayDialog("Credenciales incorrectas", "El usuario no es válido","Aceptar");
         }
     }
 
@@ -73,7 +75,7 @@ public class WebRequest : MonoBehaviour
         Debug.Log(data);
 
         // Método POST
-        using (UnityWebRequest www = UnityWebRequest.Post("http://127.0.0.1:8000/auth", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198.1.48:8080/auth", form))
         {
             yield return www.SendWebRequest();
 
@@ -82,6 +84,7 @@ public class WebRequest : MonoBehaviour
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
+                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
             }
             else
             {

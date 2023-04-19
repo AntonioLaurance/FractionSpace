@@ -17,3 +17,33 @@ public class Verify
     public bool valid;
     public string token;
 }
+
+[System.Serializable]
+
+public class Exercise
+{
+    // Operadores
+    public int numerador1;
+    public int denominador1;
+    public int numerador2;
+    public int denominador2;
+
+    // Respuesta
+    public int num;
+    public int den;
+}
+
+[System.Serializable]
+
+public class Result
+{
+    // Respuesta
+    public int num;
+    public int den;
+
+    public bool correcto;
+
+    // Desviaciones
+    public float devpor;
+    public float devval;
+}
