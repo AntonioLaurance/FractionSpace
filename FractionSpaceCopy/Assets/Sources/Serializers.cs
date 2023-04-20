@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -60,4 +61,20 @@ public class Result
     // Desviaciones
     public float devpor;
     public float devval;
+}
+
+[System.Serializable]
+
+public class Partida
+{
+    // Fechas 
+    public DateTime fechainicio;
+    public DateTime fechafin;
+
+    // Puntaje obtenido en la partida
+    public int puntaje;
+
+    // ID
+    public int nivel;      
+    public int usuario;
 }

@@ -367,14 +367,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Carta.cs"
-"Assets/Cubierta.cs"
-"Assets/Juego.cs"
 "Assets/Sources/BotonInicio.cs"
-<<<<<<< HEAD
-=======
 "Assets/Sources/Carta.cs"
->>>>>>> 83bb8bca680c6ee6ed2cb4e6b8738be5f991ddaa
 "Assets/Sources/CartaPrincipal.cs"
 "Assets/Sources/charachter.cs"
 "Assets/Sources/CombatCrtl.cs"

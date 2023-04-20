@@ -127,7 +127,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
     }
 
     IEnumerator SendQuestion()
-    {
+    { 
         pregunta.num1 = suma.numerador1;
         pregunta.num2 = suma.numerador2;
         pregunta.den1 = suma.denominador1;
