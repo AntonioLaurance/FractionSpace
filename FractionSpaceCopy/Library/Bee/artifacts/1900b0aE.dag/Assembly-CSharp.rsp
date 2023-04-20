@@ -377,6 +377,7 @@
 "Assets/Sources/Cubierta.cs"
 "Assets/Sources/DragHandeler.cs"
 "Assets/Sources/Funcionamiento.cs"
+"Assets/Sources/InterfazDeUsuario.cs"
 "Assets/Sources/Inventory.cs"
 "Assets/Sources/Juego.cs"
 "Assets/Sources/Login.cs"

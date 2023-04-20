@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Networking;
+using UnityEditor;
+using UnityEngine.SceneManagement;
 
 public class Funcionamiento : MonoBehaviour
 {
@@ -18,12 +21,16 @@ public class Funcionamiento : MonoBehaviour
     public TMP_Text puntaje;
     bool timerActive = true;
     private int puntos = 0;
+    private DateTime fechaInicio;
+    private DateTime fechaFin;
+    private Partida partida;
 
     private void Start() 
     {
         int longOriginal = indexCaras.Count; //Agregamos las cartas al tablero de manera aleatoria manteniendo un órden en la manera en la que
         float posicionY = 3.3f;//               se encuentran formadas
         float posicionX = -6;
+        fechaInicio = DateTime.Now;
         for(int i = 0; i < 16; i++)
         {
             shuffleNum = rnd.Next(0, (indexCaras.Count));
@@ -119,6 +126,7 @@ public class Funcionamiento : MonoBehaviour
     public void Puntuacion()//Asigna los puntos obtenidos según el tiempo que se tardó en resolver el juego y los imprime
     {
         timerActive = false;
+        fechaFin = DateTime.Now;
         if(timeStart < 40)
         {
             puntos = 100;
@@ -179,7 +187,7 @@ public class Funcionamiento : MonoBehaviour
             puntos = 50;
             puntaje.text = (puntos + " puntos\nTiempo: " + timeStart + " segundos");
         }
-
+        SendProgress();
     }
 
     private void Awake()
@@ -195,4 +203,61 @@ public class Funcionamiento : MonoBehaviour
             textBox.text = timeStart.ToString("F2");
         }
     }
+
+    IEnumerator SendProgress()
+    {
+        partida.fechainicio = fechaInicio;
+        partida.fechafin = fechaFin;
+        partida.puntaje = puntos;
+        partida.nivel = 1;
+        partida.usuario = 1;
+
+        string match = JsonUtility.ToJson(partida);
+        Debug.Log("Estamos dentro de SendProgress");
+        Debug.Log(match);
+
+        //Simulamos formulario web
+        WWWForm form = new WWWForm();
+        form.AddField("partida", match);
+
+        //Enviamos para la base de datos
+        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198..1.48:8000/apipartidasunity", match))
+        {
+            yield return www.SendWebRequest();
+
+            //Verificamos si hay error
+            if(www.result != UnityWebRequest.Result.Success)
+            {
+                //Imprimimos Mensaje de Error
+                Debug.Log(www.error);
+                EditorUtility.DisplayDialog("Error de Conexión", www.error, "Aceptar");
+            }
+            else
+            {
+                //obtengo el texto que viende del servidor
+                string txt = www.downloadHandler.text;
+
+                //Mostramos respuesta del servidor
+                Debug.Log(txt);
+
+
+            }
+        }
+
+
+    }
+}
+[System.Serializable]
+public class Partida
+{
+    //Fechas
+    public DateTime fechainicio;
+    public DateTime fechafin;
+
+    //Puntaje obtenido en la partida
+    public int puntaje;
+
+    //ID
+    public int nivel;
+    public int usuario;
 }
