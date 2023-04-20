@@ -1,5 +1,5 @@
 .hero_area {
-  font-family: 'Copperplate Gothic';
+  font-family: Arial, sans-serif;
   color: #faf9fa;
   background-image: url(../images/fondomenu.jpg);
   background-size: cover;
@@ -744,6 +744,14 @@ a:focus {
 .footer_section a {
   color: #f9fcfb;
 }
+
+.d-flex justify-content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */

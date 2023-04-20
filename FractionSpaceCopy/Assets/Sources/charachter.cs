@@ -18,6 +18,8 @@ public class charachter : MonoBehaviour
 
     public bool type;
 
+    
+
     private void Start()
     {
         ScaleI = barlife.transform.localScale.x;
