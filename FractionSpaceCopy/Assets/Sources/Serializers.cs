@@ -18,6 +18,7 @@ public class Verify
     public string token;
 }
 
+// Para enviar al servidor para verificar
 [System.Serializable]
 
 public class Exercise
@@ -31,6 +32,19 @@ public class Exercise
     // Respuesta
     public int num;
     public int den;
+}
+
+public class Question
+{
+    public string texto;
+    public string operacion;
+
+    public int num1;
+    public int den1;
+    public int num2;
+    public int den2;
+
+    public int puntaje;
 }
 
 [System.Serializable]
