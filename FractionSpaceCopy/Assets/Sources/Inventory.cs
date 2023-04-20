@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEditor;
 using UnityEngine;
@@ -9,9 +10,13 @@ public class Inventory : MonoBehaviour, IHasChanged{
     [SerializeField] Transform slots;
     [SerializeField] Text inventoryText;
     public Exercise suma;
-    public Question pregunta;
+    public Question pregunta = new Question();
+    string dateinit = "";
 
     void Start(){
+        // Fecha de inicio
+        dateinit = DateTime.Now.ToString();
+
         HasChanged();
     }
 
@@ -71,11 +76,6 @@ public class Inventory : MonoBehaviour, IHasChanged{
                     GameObject slot5 = GameObject.Find("Canvas/Panel/inventario(1)/slot5");
                     suma.den = System.Int32.Parse(slot5.transform.GetChild(0).name);
 
-                    pregunta.num1 = suma.numerador1;
-                    // pregunta.texto = "";
-                    // pregunta.operacion = "+";
-                    // pregunta.puntaje = 50;
-
                     // Serializamos
                     string message = JsonUtility.ToJson(suma);
                     Debug.Log(message);
@@ -95,7 +95,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
         form.AddField("exercise", json);
 
         // Enviamos al servidor para verificar
-        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198.1.48:8080/suma", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://127.0.0.1:8000/suma", form))
         {
             yield return www.SendWebRequest();
 
@@ -121,19 +121,33 @@ public class Inventory : MonoBehaviour, IHasChanged{
                 Debug.Log("Desviación porcentual: " + answer.devpor + "%");
 
                 // string question = JsonUtility.ToJson(pregunta);
-                // StartCoroutine(SendQuestion(question));
+                StartCoroutine(SendQuestion());
             }
         }
     }
 
-    IEnumerator SendQuestion(string question)
+    IEnumerator SendQuestion()
     {
+        pregunta.num1 = suma.numerador1;
+        pregunta.num2 = suma.numerador2;
+        pregunta.den1 = suma.denominador1;
+        pregunta.den2 = suma.denominador2;
+
+        pregunta.texto = "";
+        pregunta.operacion = "+";
+        pregunta.puntaje = 50;
+
+        string question = JsonUtility.ToJson(pregunta);
+        
+        Debug.Log("Estamos dentro de SendQuestion.");
+        Debug.Log(question);
+
         // Simulamos un formulario web
         WWWForm form = new WWWForm();
         form.AddField("pregunta", question);
 
         // Enviamos para la base de datos
-        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198.1.48:8080/apipreguntasunity", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://127.0.0.1:8000/apipreguntasunity", form))
         {
             yield return www.SendWebRequest();
 
@@ -148,9 +162,22 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 string txt = www.downloadHandler.text;
                 Debug.Log(txt);         // raw text
+
+                // Fecha de fin del juego
+                string datefin = DateTime.Now.ToString();
+                Debug.Log(dateinit);
+                Debug.Log(datefin);
             }
         }
     }
+
+    /* // Función que envía la partida al servidor
+     * IEnumerator SendProgress()
+     * {
+        // Ver como sacar las fechas
+
+     }
+    */
 }
 
 namespace UnityEngine.EventSystems {
