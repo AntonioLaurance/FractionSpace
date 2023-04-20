@@ -9,6 +9,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
     [SerializeField] Transform slots;
     [SerializeField] Text inventoryText;
     public Exercise suma;
+    public Question pregunta;
 
     void Start(){
         HasChanged();
@@ -54,18 +55,26 @@ public class Inventory : MonoBehaviour, IHasChanged{
 
                     GameObject slot1 = GameObject.Find("Canvas/Panel/inventario(1)/slot1");
                     suma.numerador2 = System.Int32.Parse(slot1.transform.GetChild(0).name);
+                    // pregunta.num2 = System.Int32.Parse(slot1.transform.GetChild(0).name);
 
                     GameObject slot2 = GameObject.Find("Canvas/Panel/inventario(1)/slot2");
                     suma.num = System.Int32.Parse(slot2.transform.GetChild(0).name);
 
                     GameObject slot3 = GameObject.Find("Canvas/Panel/inventario(1)/slot3");
                     suma.denominador1 = System.Int32.Parse(slot3.transform.GetChild(0).name);
+                    // pregunta.den1 = System.Int32.Parse(slot3.transform.GetChild(0).name);
 
                     GameObject slot4 = GameObject.Find("Canvas/Panel/inventario(1)/slot4");
                     suma.denominador2 = System.Int32.Parse(slot4.transform.GetChild(0).name);
+                    // pregunta.den2 = System.Int32.Parse(slot4.transform.GetChild(0).name);
 
                     GameObject slot5 = GameObject.Find("Canvas/Panel/inventario(1)/slot5");
                     suma.den = System.Int32.Parse(slot5.transform.GetChild(0).name);
+
+                    pregunta.num1 = suma.numerador1;
+                    // pregunta.texto = "";
+                    // pregunta.operacion = "+";
+                    // pregunta.puntaje = 50;
 
                     // Serializamos
                     string message = JsonUtility.ToJson(suma);
@@ -105,10 +114,40 @@ public class Inventory : MonoBehaviour, IHasChanged{
                 // Deserialización
                 Result answer = JsonUtility.FromJson<Result>(txt);
 
+                // Imprimimos resultados obtenidos desde el servidor
                 Debug.Log("Respuesta correcta: " + answer.num + "/" + answer.den);
                 Debug.Log("¿Correcto?: " + answer.correcto);
                 Debug.Log("Desviación: " + answer.devval);
                 Debug.Log("Desviación porcentual: " + answer.devpor + "%");
+
+                // string question = JsonUtility.ToJson(pregunta);
+                // StartCoroutine(SendQuestion(question));
+            }
+        }
+    }
+
+    IEnumerator SendQuestion(string question)
+    {
+        // Simulamos un formulario web
+        WWWForm form = new WWWForm();
+        form.AddField("pregunta", question);
+
+        // Enviamos para la base de datos
+        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198.1.48:8080/apipreguntasunity", form))
+        {
+            yield return www.SendWebRequest();
+
+            // Checamos si hay error
+            if(www.result != UnityWebRequest.Result.Success)
+            {
+                // Imprimimos mensaje de error
+                Debug.Log(www.error);
+                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
+            }
+            else
+            {
+                string txt = www.downloadHandler.text;
+                Debug.Log(txt);         // raw text
             }
         }
     }
