@@ -14,6 +14,11 @@ public class CombatCrtl : MonoBehaviour
     public DateTime fechaFin;
     public Partida partida;
     bool turn = true;
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
     bool final = false;
 
 
@@ -47,6 +52,9 @@ public class CombatCrtl : MonoBehaviour
             StartCoroutine(GetPlayerID());
         }
     }
+
+  
+  
 
     public void Atack()
     {

@@ -252,6 +252,12 @@ MonoBehaviour:
   PlayerSelect: 0
   enemies: {fileID: 1400846625}
   players: {fileID: 2079915118}
+  partida:
+    fecha_inicio: 
+    fecha_fin: 
+    puntaje: 0
+    nivel: 0
+    usuario: 0
 --- !u!4 &83320183
 Transform:
   m_ObjectHideFlags: 0
@@ -1414,7 +1420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4644708332174101819, guid: 0743fef732e84bf43b4e114444f94bab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 808.1313
+      value: 785
       objectReference: {fileID: 0}
     - target: {fileID: 4644708332174101819, guid: 0743fef732e84bf43b4e114444f94bab, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1854,7 +1860,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2711353426168845569, guid: 8067cfeba9237c944920e05ad3ef9bab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1135.3209
+      value: 1099
       objectReference: {fileID: 0}
     - target: {fileID: 2711353426168845569, guid: 8067cfeba9237c944920e05ad3ef9bab, type: 3}
       propertyPath: m_LocalPosition.y
