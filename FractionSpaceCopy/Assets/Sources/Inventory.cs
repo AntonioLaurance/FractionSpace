@@ -180,18 +180,19 @@ public class Inventory : MonoBehaviour, IHasChanged{
     IEnumerator SendProgress()
     {
         // Ver como sacar las fechas
-        partida.fecha_inicio = dateinit.ToString();
-        partida.fecha_fin = datefin.ToString();
+        partida.fecha_inicio = dateinit.ToString("yyyy-MM-ddTHH:mm:sszzz", System.Globalization.CultureInfo.InvariantCulture);
+        partida.fecha_fin = datefin.ToString("yyyy-MM-ddTHH:mm:sszzz", System.Globalization.CultureInfo.InvariantCulture);
         partida.puntaje = pregunta.puntaje;
         partida.nivel = 3;
 
         // Serializamos
         string message = JsonUtility.ToJson(partida);
+        Debug.Log(message);
 
         WWWForm form = new WWWForm();
         form.AddField("partida", message);
 
-        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198.1.48:8080/apipartidasunity", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://127.0.0.1:8000/apipartidasunity", form))
         {
             yield return www.SendWebRequest();
 
