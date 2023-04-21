@@ -252,8 +252,8 @@ public class Funcionamiento : MonoBehaviour
     {
         Debug.Log("Estamos dentro de SendProgress");
 
-        partida.fecha_inicio = fechaInicio.ToString();
-        partida.fecha_fin = fechaFin.ToString();
+        partida.fecha_inicio = fechaInicio.ToString("yyyy-MM-ddTHH:mm:sszzz", System.Globalization.CultureInfo.InvariantCulture);
+        partida.fecha_fin = fechaFin.ToString("yyyy-MM-ddTHH:mm:sszzz", System.Globalization.CultureInfo.InvariantCulture);
         partida.puntaje = puntos;
         partida.nivel = 1;
         partida.usuario = userID;
