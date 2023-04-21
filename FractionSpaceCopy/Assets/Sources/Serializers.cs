@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -34,6 +35,8 @@ public class Exercise
     public int den;
 }
 
+[System.Serializable]
+
 public class Question
 {
     public string texto;
@@ -61,3 +64,20 @@ public class Result
     public float devpor;
     public float devval;
 }
+
+[System.Serializable]
+
+public class Partida
+{
+    // Fechas
+    public string fecha_inicio;
+    public string fecha_fin;
+
+    // Puntaje obtenido en la partida
+    public int puntaje;
+
+    // ID
+    public int nivel;
+    public int usuario;
+}
+

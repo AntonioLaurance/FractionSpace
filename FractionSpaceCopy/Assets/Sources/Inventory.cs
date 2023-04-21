@@ -11,11 +11,13 @@ public class Inventory : MonoBehaviour, IHasChanged{
     [SerializeField] Text inventoryText;
     public Exercise suma;
     public Question pregunta = new Question();
-    string dateinit = "";
+    public Partida partida;
+    DateTime dateinit;
+    DateTime datefin;
 
     void Start(){
         // Fecha de inicio
-        dateinit = DateTime.Now.ToString();
+        dateinit = DateTime.Now;
 
         HasChanged();
     }
@@ -127,7 +129,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
     }
 
     IEnumerator SendQuestion()
-    {
+    { 
         pregunta.num1 = suma.numerador1;
         pregunta.num2 = suma.numerador2;
         pregunta.den1 = suma.denominador1;
@@ -164,20 +166,45 @@ public class Inventory : MonoBehaviour, IHasChanged{
                 Debug.Log(txt);         // raw text
 
                 // Fecha de fin del juego
-                string datefin = DateTime.Now.ToString();
+                datefin = DateTime.Now;
                 Debug.Log(dateinit);
                 Debug.Log(datefin);
+
+                // StarCoroutine(SendProgress);
             }
         }
     }
 
-    /* // Función que envía la partida al servidor
-     * IEnumerator SendProgress()
-     * {
+    
+    // Función que envía la partida al servidor
+    IEnumerator SendProgress()
+    {
         // Ver como sacar las fechas
+        partida.fecha_inicio = dateinit.ToString();
+        partida.fecha_fin = datefin.ToString();
+        partida.puntaje = pregunta.puntaje;
+        partida.nivel = 3;
 
-     }
-    */
+        // Serializamos
+        string message = JsonUtility.ToJson(partida);
+
+        WWWForm form = new WWWForm();
+        form.AddField("partida", message);
+
+        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198.1.48:8080/apipartidasunity", form))
+        {
+            yield return www.SendWebRequest();
+
+            if(www.result != UnityWebRequest.Result.Success)
+            {
+                // Imprimimos mensaje de error
+                Debug.Log(www.error);
+            }
+            
+        }
+    }
+   
+    
 }
 
 namespace UnityEngine.EventSystems {
