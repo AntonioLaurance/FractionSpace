@@ -122,6 +122,16 @@ public class Inventory : MonoBehaviour, IHasChanged{
                 Debug.Log("Desviación: " + answer.devval);
                 Debug.Log("Desviación porcentual: " + answer.devpor + "%");
 
+                if(answer.devpor > 0)
+                {
+                    pregunta.puntaje = Convert.ToInt32(100 - answer.devpor);
+                }
+                else
+                {
+                    pregunta.puntaje = 0;
+                }
+                    
+
                 // string question = JsonUtility.ToJson(pregunta);
                 StartCoroutine(SendQuestion());
             }
@@ -137,7 +147,6 @@ public class Inventory : MonoBehaviour, IHasChanged{
 
         pregunta.texto = "";
         pregunta.operacion = "+";
-        pregunta.puntaje = 50;
 
         string question = JsonUtility.ToJson(pregunta);
         
