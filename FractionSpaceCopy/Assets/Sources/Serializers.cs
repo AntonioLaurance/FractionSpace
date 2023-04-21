@@ -35,6 +35,8 @@ public class Exercise
     public int den;
 }
 
+[System.Serializable]
+
 public class Question
 {
     public string texto;
@@ -67,14 +69,15 @@ public class Result
 
 public class Partida
 {
-    // Fechas 
-    public DateTime fechainicio;
-    public DateTime fechafin;
+    // Fechas
+    public string fecha_inicio;
+    public string fecha_fin;
 
     // Puntaje obtenido en la partida
     public int puntaje;
 
     // ID
-    public int nivel;      
+    public int nivel;
     public int usuario;
 }
+
