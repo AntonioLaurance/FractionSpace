@@ -8,6 +8,8 @@ public class CombatCrtl : MonoBehaviour
     public int EnemySelect, PlayerSelect;
     public GameObject enemies, players;
     bool turn = true;
+    public List<AttackDatos> attacks;
+    public int selectedAttackIndex;
 
     private void Start()
     {
