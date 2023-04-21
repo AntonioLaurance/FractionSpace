@@ -57,6 +57,7 @@ public class charachter : MonoBehaviour
     {
         this.select.SetActive(select);
     }
+
     IEnumerator AnimAtack()
     {
         float mov = 0.3f;

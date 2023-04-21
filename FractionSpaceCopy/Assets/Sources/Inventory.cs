@@ -97,7 +97,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
         form.AddField("exercise", json);
 
         // Enviamos al servidor para verificar
-        using (UnityWebRequest www = UnityWebRequest.Post("http://127.0.0.1:8000/suma", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198.1.48:8080/suma", form))
         {
             yield return www.SendWebRequest();
 
@@ -149,7 +149,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
         form.AddField("pregunta", question);
 
         // Enviamos para la base de datos
-        using (UnityWebRequest www = UnityWebRequest.Post("http://127.0.0.1:8000/apipreguntasunity", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198.1.48:8080/apipreguntasunity", form))
         {
             yield return www.SendWebRequest();
 
@@ -170,20 +170,63 @@ public class Inventory : MonoBehaviour, IHasChanged{
                 Debug.Log(dateinit);
                 Debug.Log(datefin);
 
-                // StarCoroutine(SendProgress);
+                StartCoroutine(GetUserID());
             }
         }
     }
 
     
+    IEnumerator GetUserID()
+    {
+        Debug.Log("Estamos dentro de GetIDPlayer");
+
+        // Obtenemos datos a enviar
+        GameObject user = GameObject.Find("User");
+        UserData ud = user.GetComponent<UserData>();
+
+        // Serializamos el objeto Player
+        string message = JsonUtility.ToJson(ud.player);
+
+        // Simulamos formulario web
+        WWWForm form = new WWWForm();
+        form.AddField("jugador", message);
+
+        // Método POST
+        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198.1.48:8080/apiusuarioidunity", form))
+        {
+            yield return www.SendWebRequest();
+
+            // Checamos si hay error
+            if (www.result != UnityWebRequest.Result.Success)
+            {
+                // Imprimimos mensaje de error
+                Debug.Log(www.error);
+                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
+            }
+            else
+            {
+                // Obtengo texto que viene del servidor
+                string txt = www.downloadHandler.text;
+
+                // Imprimimos ID del jugador
+                Debug.Log("Jugador ID: " + txt);
+
+                int userID = System.Int32.Parse(txt);
+                StartCoroutine(SendProgress(userID));
+            }
+        }
+    }
+
+
     // Función que envía la partida al servidor
-    IEnumerator SendProgress()
+    IEnumerator SendProgress(int userID)
     {
         // Ver como sacar las fechas
         partida.fecha_inicio = dateinit.ToString("yyyy-MM-ddTHH:mm:sszzz", System.Globalization.CultureInfo.InvariantCulture);
         partida.fecha_fin = datefin.ToString("yyyy-MM-ddTHH:mm:sszzz", System.Globalization.CultureInfo.InvariantCulture);
         partida.puntaje = pregunta.puntaje;
         partida.nivel = 3;
+        partida.usuario = userID;
 
         // Serializamos
         string message = JsonUtility.ToJson(partida);
@@ -192,7 +235,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
         WWWForm form = new WWWForm();
         form.AddField("partida", message);
 
-        using (UnityWebRequest www = UnityWebRequest.Post("http://127.0.0.1:8000/apipartidasunity", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://20.198.1.48:8080/apipartidasunity", form))
         {
             yield return www.SendWebRequest();
 
@@ -201,11 +244,16 @@ public class Inventory : MonoBehaviour, IHasChanged{
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
             }
-            
+            else
+            {
+                // Obtenemos texto que viene del servidor
+                string txt = www.downloadHandler.text;
+
+                // Imprimimos texto
+                Debug.Log(txt);
+            } 
         }
-    }
-   
-    
+    } 
 }
 
 namespace UnityEngine.EventSystems {
