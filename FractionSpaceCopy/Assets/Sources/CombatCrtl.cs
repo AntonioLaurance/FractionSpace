@@ -14,7 +14,12 @@ public class CombatCrtl : MonoBehaviour
     public DateTime fechaFin;
     public Partida partida;
     bool turn = true;
+<<<<<<< HEAD
+    public List<AttackDatos> attacks;
+    public int selectedAttackIndex;
+=======
     bool final = false;
+>>>>>>> 23f4b0ba8e809a438383de26cc84935fd99e73d3
 
     public void Start()
     {
