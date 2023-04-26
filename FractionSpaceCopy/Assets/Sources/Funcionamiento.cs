@@ -10,6 +10,8 @@ using UnityEngine.SceneManagement;
 
 public class Funcionamiento : MonoBehaviour
 {
+    [SerializeField] private GameObject mensajeSaltableObjeto;
+    [SerializeField] private TMP_Text textoMensajeError;
     GameObject carta; //Se crea objeto de la carta
     List<int> indexCaras = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}; //Creamos un index para tagear cada carta
     public static System.Random rnd = new System.Random(); 
@@ -20,6 +22,7 @@ public class Funcionamiento : MonoBehaviour
     public TMP_Text textBox;
     public TMP_Text puntaje;
     bool timerActive = true;
+    private bool mensajeActivo = false;
     private int puntos = 0;
     public DateTime fechaInicio;
     public DateTime fechaFin;
@@ -229,8 +232,10 @@ public class Funcionamiento : MonoBehaviour
             if(www.result != UnityWebRequest.Result.Success)
             {
                 // Imprimimos mensaje de error
-                Debug.Log(www.error);
-                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
+                Debug.Log(www.error);                       // raw text
+                mensajeActivo = true;
+                mensajeSaltableObjeto.SetActive(true);      // window
+                textoMensajeError.text = www.error;
             }
             else
             {
@@ -275,7 +280,9 @@ public class Funcionamiento : MonoBehaviour
             {
                 // Imprimimos Mensaje de Error
                 Debug.Log(www.error);
-                EditorUtility.DisplayDialog("Error de Conexión", www.error, "Aceptar");
+                mensajeActivo = true;
+                mensajeSaltableObjeto.SetActive(true);
+                textoMensajeError.text = www.error;
             }
             else
             {
@@ -288,5 +295,22 @@ public class Funcionamiento : MonoBehaviour
 
             }
         }
+    }
+
+    private void OnGUI()
+    {
+        if(mensajeActivo)
+        {
+            if(Input.anyKeyDown)
+            {
+                LimpiarMensaje();
+            }
+        }
+    }
+
+    private void LimpiarMensaje()
+    {
+        mensajeActivo = false;
+        mensajeSaltableObjeto.SetActive(false);
     }
 }
