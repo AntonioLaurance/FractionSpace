@@ -60,7 +60,8 @@ public class charachter : MonoBehaviour
 
     IEnumerator AnimAtack()
     {
-        float mov = 0.3f;
+        float mov = 10.3f;
+        Debug.Log("Atacando");
         if (!type) mov *= -1;
         transform.position = new Vector3(transform.position.x + mov, transform.position.y, transform.position.z);
         yield return new WaitForSecondsRealtime(0.2f);
