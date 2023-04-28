@@ -126,6 +126,11 @@ public class Funcionamiento : MonoBehaviour
         return correcto;
     }
 
+    public void CambiaAEscena()
+    {
+        SceneManager.LoadScene("Nivel 2");
+    }
+
     public void Puntuacion()//Asigna los puntos obtenidos según el tiempo que se tardó en resolver el juego y los imprime
     {
         timerActive = false;
@@ -192,6 +197,7 @@ public class Funcionamiento : MonoBehaviour
         }
 
         StartCoroutine(GetIDPlayer());
+        Invoke("CambiaAEscena", 5f);
     }
 
     private void Awake()

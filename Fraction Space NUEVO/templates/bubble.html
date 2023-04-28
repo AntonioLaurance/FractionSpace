@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawSeriesChart);
+
+    function drawSeriesChart() {
+
+      var data = google.visualization.arrayToDataTable({{values|safe}});
+
+      var options = {
+        title: {{titulo|safe}},
+        titleTextStyle: {color: {{title_color|safe}}},
+        hAxis: {title: {{h_title|safe}}, 
+                titleTextStyle: {color: {{axis_color|safe}}}, 
+                textStyle: {color: {{axis_color|safe}}}, 
+                baselineColor: {{axis_color|safe}}},
+        vAxis: {title: {{v_title|safe}}, 
+                titleTextStyle: {color: {{axis_color|safe}}}, 
+                textStyle: {color: {{axis_color|safe}}}, 
+                baselineColor: {{axis_color|safe}}},
+        bubble: {textStyle: {fontSize: 11,
+                             color: 'pink',
+                             bold: true,
+                             italic: true}},
+        series: {title: 'Grupo', 'A': {color: 'green'}, 'B': {color: 'blue'}},
+        backgroundColor: {fill: {{fill|safe}}, stroke: {{border_color|safe}}, strokeWidth: 5}
+      };
+
+      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));
+      chart.draw(data, options);
+    }
+    </script>
+  </head>
+  <body>
+    <div id="series_chart_div" style="width: 1260px; height: 700px;"></div>
+  </body>
+</html>
