@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 
 public class CombatCrtl : MonoBehaviour
 {
@@ -45,12 +46,15 @@ public class CombatCrtl : MonoBehaviour
             Debug.Log("Final del nivel");
 
             StartCoroutine(GetPlayerID());
+            Invoke("CambiaAEscena", 5f);
         }
     }
 
+    public void CambiaAEscena()
+    {
+        SceneManager.LoadScene("Nivel 3");
+    }
   
-  
-
     public void Atack()
     {
         if (turn && PlayerN >= 0)
