@@ -5,7 +5,6 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class Inventory : MonoBehaviour, IHasChanged{
     [SerializeField] Transform slots;
@@ -22,10 +21,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
 
         HasChanged();
     }
-    public void CambiaAEscena()
-    {
-        SceneManager.LoadScene("Estadisticas");
-    }
+
     /*
      * Orden de los operadores para envio al servidor
      * slot0 -> numerador1
@@ -183,7 +179,6 @@ public class Inventory : MonoBehaviour, IHasChanged{
                 Debug.Log(datefin);
 
                 StartCoroutine(GetUserID());
-                Invoke("CambiaAEscena", 5f);
             }
         }
     }
