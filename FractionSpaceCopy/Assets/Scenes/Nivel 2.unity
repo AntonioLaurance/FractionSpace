@@ -123,6 +123,107 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &28169254
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 608564037}
+    m_Modifications:
+    - target: {fileID: 561913324645762081, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_Name
+      value: Mensaje  Error
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762081, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -546.3904
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -1500.4052
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 13.354858
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
 --- !u!1 &66910009
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,6 +723,7 @@ RectTransform:
   - {fileID: 950308054}
   - {fileID: 678286781}
   - {fileID: 833093702}
+  - {fileID: 1075779550}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.411}
@@ -678,6 +780,10 @@ PrefabInstance:
     - target: {fileID: 561913324645762081, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
       propertyPath: m_Name
       value: 'Mensaje '
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762081, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
       propertyPath: m_Pivot.x
@@ -763,9 +869,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762087, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762087, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 561913324645762087, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 561913325000434701, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
       propertyPath: m_text
-      value: En este nivel necesitas derrotar a los monstruos con los numeros correctos
+      value: En este nivel necesitas derrotar a los monstruos con los numeros correctos.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2582765859941535996, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
@@ -993,6 +1115,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 950308053}
   m_CullTransparentMesh: 1
+--- !u!224 &1075779550 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 561913324645762086, guid: 99f24673831b39c42acb09ed44a4db5e, type: 3}
+  m_PrefabInstance: {fileID: 28169254}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1204651993 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4644708332174101819, guid: 0743fef732e84bf43b4e114444f94bab, type: 3}
@@ -1056,21 +1183,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< Updated upstream
-  m_text: 10 + 10 + 10
-=======
-  m_text: 10 +10 +10
->>>>>>> Stashed changes
+  m_text: Attack
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: aa9124beadf7a2140a485eab9d53552b, type: 2}
-  m_sharedMaterial: {fileID: -8708028348797201182, guid: aa9124beadf7a2140a485eab9d53552b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1369,8 +1492,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4802492265496317460, guid: 3316aabd5dd7e2743ad1214e35350560, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

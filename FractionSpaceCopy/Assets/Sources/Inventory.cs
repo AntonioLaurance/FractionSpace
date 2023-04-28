@@ -1,19 +1,22 @@
 using System;
 using System.Collections;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using TMPro;
 
 public class Inventory : MonoBehaviour, IHasChanged{
     [SerializeField] Transform slots;
     [SerializeField] Text inventoryText;
+    [SerializeField] private GameObject mensajeSaltableObjeto;
+    [SerializeField] private TMP_Text textoMensajeError;
     public Exercise suma;
     public Question pregunta = new Question();
     public Partida partida;
     DateTime dateinit;
     DateTime datefin;
+    bool MensajeErrorActivo = false;
 
     void Start(){
         // Fecha de inicio
@@ -106,7 +109,11 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
-                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
+                MensajeErrorActivo = true;
+                mensajeSaltableObjeto.SetActive(true);
+                textoMensajeError.text = "Explicación del error";
+
+                Debug.Log("Mensaje de error al enviar la pregunta.");
             }
             else
             {
@@ -166,7 +173,10 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
-                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
+
+                MensajeErrorActivo = true;
+                mensajeSaltableObjeto.SetActive(true);
+                textoMensajeError.text = www.error;
             }
             else
             {
@@ -209,7 +219,10 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
-                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
+
+                MensajeErrorActivo = true;
+                mensajeSaltableObjeto.SetActive(true);
+                textoMensajeError.text = www.error;
             }
             else
             {
@@ -251,6 +264,10 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
+
+                MensajeErrorActivo = true;
+                mensajeSaltableObjeto.SetActive(true);
+                textoMensajeError.text = www.error;
             }
             else
             {
@@ -261,7 +278,24 @@ public class Inventory : MonoBehaviour, IHasChanged{
                 Debug.Log(txt);
             } 
         }
-    } 
+    }
+
+    private void OnGui()
+    {
+        if(MensajeErrorActivo)
+        {
+            if(Input.anyKeyDown)
+            {
+                LimpiarMensaje();
+            }
+        }
+    }
+
+    private void LimpiarMensaje()
+    {
+        MensajeErrorActivo = false;
+        mensajeSaltableObjeto.SetActive(false);
+    }
 }
 
 namespace UnityEngine.EventSystems {
