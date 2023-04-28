@@ -86,6 +86,8 @@ public class CombatCrtl : MonoBehaviour
         }
     }
 
+
+
     IEnumerator GetPlayerID()
     {
         Debug.Log("Dentro de GetPlayerID");
