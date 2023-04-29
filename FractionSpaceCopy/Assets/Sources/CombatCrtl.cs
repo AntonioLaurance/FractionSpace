@@ -5,6 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class CombatCrtl : MonoBehaviour
 {
@@ -12,17 +13,37 @@ public class CombatCrtl : MonoBehaviour
     public int EnemySelect, PlayerSelect;
     public GameObject enemies, players;
     public DateTime fechaInicio;
-    public DateTime fechaFin;
     public Partida partida;
+    public DateTime fechaFin;
+    public float timeStart;
+    public TMP_Text puntaje;
+    private int puntos;
     bool turn = true;
     bool final = false;
-
-
+    bool timerActive = true;
+    private string tempPuntos = "puntaje";
+    
     public void Start()
     {
         fechaInicio = DateTime.Now;
         charachter stats = players.transform.GetChild(PlayerSelect).GetComponent<charachter>();
         stats.Select(true);
+        puntaje.text = ("");
+        
+
+    }
+
+    private void LoadData(){
+        puntos = PlayerPrefs.GetInt(tempPuntos, 0);
+    }
+
+    private void SaveData(){
+        PlayerPrefs.SetInt(tempPuntos, puntos);
+    }
+
+    private void Awake(){
+        LoadData();
+        Debug.Log("Puntos guardados: " + puntos);
     }
 
     public void Update()
@@ -44,7 +65,7 @@ public class CombatCrtl : MonoBehaviour
             fechaFin = DateTime.Now;
             final = true;
             Debug.Log("Final del nivel");
-
+            Puntuacion();
             StartCoroutine(GetPlayerID());
             Invoke("CambiaAEscena", 5f);
         }
@@ -54,7 +75,85 @@ public class CombatCrtl : MonoBehaviour
     {
         SceneManager.LoadScene("Nivel 3");
     }
-  
+
+    public void Puntuacion()//Asigna los puntos obtenidos según el tiempo que se tardó en resolver el juego y los imprime
+    {
+        timerActive = false;
+        fechaFin = DateTime.Now;
+        if(timeStart < 40)
+        {
+            puntos  = puntos + 100;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if(timeStart < 45)
+        {
+            puntos  = puntos + 95;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 50)
+        {
+            puntos = puntos + 90;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 55)
+        {
+            puntos  = puntos + 85;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 60)
+        {
+            puntos  = puntos + 80;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 65)
+        {
+            puntos  = puntos + 75;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 70)
+        {
+            puntos  = puntos + 70;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 75)
+        {
+            puntos  = puntos + 65;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 80)
+        {
+            puntos  = puntos + 60;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 85)
+        {
+            puntos  = puntos + 65;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 90)
+        {
+            puntos  = puntos + 55;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else
+        {
+            puntos  = puntos + 50;
+            SaveData();
+            Debug.Log(puntos);
+        }
+    }
+
     public void Atack()
     {
         if (turn && PlayerN >= 0)
@@ -135,7 +234,7 @@ public class CombatCrtl : MonoBehaviour
     {
         partida.fecha_inicio = fechaInicio.ToString("yyyy-MM-ddTHH:mm:sszzz", System.Globalization.CultureInfo.InvariantCulture);
         partida.fecha_fin = fechaFin.ToString("yyyy-MM-ddTHH:mm:sszzz", System.Globalization.CultureInfo.InvariantCulture);
-        partida.puntaje = 100;
+        partida.puntaje = puntos;
         partida.nivel = 2;
         partida.usuario = userID;
 

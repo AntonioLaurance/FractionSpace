@@ -1,30 +1,130 @@
 using System;
 using System.Collections;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class Inventory : MonoBehaviour, IHasChanged{
     [SerializeField] Transform slots;
     [SerializeField] Text inventoryText;
-    [SerializeField] private GameObject mensajeSaltableObjeto;
-    [SerializeField] private TMP_Text textoMensajeError;
     public Exercise suma;
     public Question pregunta = new Question();
     public Partida partida;
+    public DateTime fechaFin;
+    public TMP_Text puntaje;
     DateTime dateinit;
     DateTime datefin;
-    bool MensajeErrorActivo = false;
+    private string tempPuntos = "puntaje";
+    private int puntos;
+    bool timerActive = true;
+    public float timeStart;
 
     void Start(){
         // Fecha de inicio
         dateinit = DateTime.Now;
-
+        puntaje.text = ("");
         HasChanged();
     }
 
+    private void LoadData(){
+        puntos = PlayerPrefs.GetInt(tempPuntos, 0);
+    }
+
+    private void SaveData(){
+        PlayerPrefs.SetInt(tempPuntos, puntos);
+    }
+
+    private void Awake(){
+        LoadData();
+        Debug.Log("Puntos guardados: " + puntos);
+    }
+
+    public void CambiaAEscena()
+    {
+        SceneManager.LoadScene("Estadisticas");
+    }
+
+    public void Puntuacion()//Asigna los puntos obtenidos según el tiempo que se tardó en resolver el juego y los imprime
+    {
+        timerActive = false;
+        fechaFin = DateTime.Now;
+        if(timeStart < 40)
+        {
+            puntos =  puntos + 100;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if(timeStart < 45)
+        {
+            puntos = puntos + 95;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 50)
+        {
+            puntos = puntos + 90;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 55)
+        {
+            puntos = puntos + 85;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 60)
+        {
+            puntos = puntos + 80;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 65)
+        {
+            puntos = puntos + 75;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 70)
+        {
+            puntos = puntos + 70;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 75)
+        {
+            puntos = puntos + 65;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 80)
+        {
+            puntos = puntos + 60;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 85)
+        {
+            puntos = puntos + 65;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else if (timeStart < 90)
+        {
+            puntos = puntos + 55;
+            SaveData();
+            Debug.Log(puntos);
+        }
+        else
+        {
+            puntos = puntos + 50;
+            SaveData();
+            Debug.Log(puntos);
+        }
+    }
     /*
      * Orden de los operadores para envio al servidor
      * slot0 -> numerador1
@@ -109,11 +209,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
-                MensajeErrorActivo = true;
-                mensajeSaltableObjeto.SetActive(true);
-                textoMensajeError.text = "Explicación del error";
-
-                Debug.Log("Mensaje de error al enviar la pregunta.");
+                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
             }
             else
             {
@@ -173,10 +269,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
-
-                MensajeErrorActivo = true;
-                mensajeSaltableObjeto.SetActive(true);
-                textoMensajeError.text = www.error;
+                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
             }
             else
             {
@@ -187,8 +280,9 @@ public class Inventory : MonoBehaviour, IHasChanged{
                 datefin = DateTime.Now;
                 Debug.Log(dateinit);
                 Debug.Log(datefin);
-
+                Puntuacion();
                 StartCoroutine(GetUserID());
+                Invoke("CambiaAEscena", 5f);
             }
         }
     }
@@ -219,10 +313,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
-
-                MensajeErrorActivo = true;
-                mensajeSaltableObjeto.SetActive(true);
-                textoMensajeError.text = www.error;
+                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
             }
             else
             {
@@ -264,10 +355,6 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
-
-                MensajeErrorActivo = true;
-                mensajeSaltableObjeto.SetActive(true);
-                textoMensajeError.text = www.error;
             }
             else
             {
@@ -278,24 +365,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
                 Debug.Log(txt);
             } 
         }
-    }
-
-    private void OnGui()
-    {
-        if(MensajeErrorActivo)
-        {
-            if(Input.anyKeyDown)
-            {
-                LimpiarMensaje();
-            }
-        }
-    }
-
-    private void LimpiarMensaje()
-    {
-        MensajeErrorActivo = false;
-        mensajeSaltableObjeto.SetActive(false);
-    }
+    } 
 }
 
 namespace UnityEngine.EventSystems {
