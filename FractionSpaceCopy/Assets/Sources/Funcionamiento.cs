@@ -27,6 +27,7 @@ public class Funcionamiento : MonoBehaviour
     public DateTime fechaInicio;
     public DateTime fechaFin;
     private Partida partida = new Partida();
+    private string tempPuntos = "puntaje";
 
     private void Start() 
     {
@@ -139,61 +140,86 @@ public class Funcionamiento : MonoBehaviour
         {
             puntos = 100;
             puntaje.text = (puntos+" puntos\nTiempo: " + timeStart + " segundos");
+            SaveData();
+            Debug.Log(puntos);
+            
         }
         else if(timeStart < 45)
         {
             puntos = 95;
             puntaje.text = (puntos + " puntos\nTiempo: " + timeStart + " segundos");
+            SaveData();
+            Debug.Log(puntos);
         }
         else if (timeStart < 50)
         {
             puntos = 90;
             puntaje.text = (puntos + " puntos\nTiempo: " + timeStart + " segundos");
+            SaveData();
+            Debug.Log(puntos);
         }
         else if (timeStart < 55)
         {
             puntos = 85;
             puntaje.text = (puntos + " puntos\nTiempo: " + timeStart + " segundos");
+            SaveData();
+            Debug.Log(puntos);
         }
         else if (timeStart < 60)
         {
             puntos = 80;
             puntaje.text = (puntos + " puntos\nTiempo: " + timeStart + " segundos");
+            SaveData();
+            Debug.Log(puntos);
         }
         else if (timeStart < 65)
         {
             puntos = 75;
             puntaje.text = (puntos + " puntos\nTiempo: " + timeStart + " segundos");
+            SaveData();
+            Debug.Log(puntos);
         }
         else if (timeStart < 70)
         {
             puntos = 70;
             puntaje.text = (puntos + " puntos\nTiempo: " + timeStart + " segundos");
+            SaveData();
+            Debug.Log(puntos);
         }
         else if (timeStart < 75)
         {
             puntos = 65;
             puntaje.text = (puntos + " puntos\nTiempo: " + timeStart + " segundos");
+            SaveData();
+            Debug.Log(puntos);
         }
         else if (timeStart < 80)
         {
             puntos = 60;
             puntaje.text = (puntos + " puntos\nTiempo: " + timeStart + " segundos");
+            SaveData();
+            Debug.Log(puntos);
         }
         else if (timeStart < 85)
         {
             puntos = 65;
             puntaje.text = (puntos + " puntos\nTiempo: " + timeStart + " segundos");
+            SaveData();
+            Debug.Log(puntos);
         }
         else if (timeStart < 90)
         {
             puntos = 55;
             puntaje.text = (puntos + " puntos\nTiempo: " + timeStart + " segundos");
+            SaveData();
+            Debug.Log(puntos);
         }
         else
         {
             puntos = 50;
             puntaje.text = (puntos + " puntos\nTiempo: " + timeStart + " segundos");
+            SaveData();
+            Debug.Log(puntos);
         }
 
         StartCoroutine(GetIDPlayer());
@@ -203,6 +229,15 @@ public class Funcionamiento : MonoBehaviour
     private void Awake()
     {
         carta = GameObject.Find("Carta");
+        LoadData();
+    }
+
+    private void SaveData(){
+        PlayerPrefs.SetInt(tempPuntos, puntos);
+    }
+
+    private void LoadData(){
+        puntos = PlayerPrefs.GetInt(tempPuntos);
     }
 
     private void Update() //Avanza el tiempo del cronómetro
