@@ -96,7 +96,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1343338445796106169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03118b1f4d9c344939b00fd16f02575f, type: 3}
+  m_Script: {fileID: 11500000, guid: bf632f350dff3584f8df543e388fa786, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   barlife: {fileID: 3243776846733290443}
@@ -262,12 +262,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: c2cd84ec12b04d84aac5b6440a507048, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 93c1f39a8253d6846a1892648a29e478, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 8, y: 8}
+  m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
