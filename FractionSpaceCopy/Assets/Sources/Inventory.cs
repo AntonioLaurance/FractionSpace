@@ -19,7 +19,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
     DateTime dateinit;
     DateTime datefin;
     private string tempPuntos = "puntaje";
-    private int puntos;
+    public static int puntos;
     bool timerActive = true;
     public float timeStart;
 

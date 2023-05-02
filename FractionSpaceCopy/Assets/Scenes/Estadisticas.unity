@@ -675,6 +675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8068ea170a7f6546a92a730beb6f89b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puntaje: {fileID: 869365008}
 --- !u!4 &1047925710
 Transform:
   m_ObjectHideFlags: 0

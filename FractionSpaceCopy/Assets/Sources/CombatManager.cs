@@ -30,7 +30,7 @@ public class CombatManager : MonoBehaviour
     public DateTime fechaFin;
     public float timeStart;
     public TMP_Text puntaje;
-    private int puntos;
+    public static int puntos;
     bool timerActive = true;
     private string tempPuntos = "puntaje";
     public Partida partida;

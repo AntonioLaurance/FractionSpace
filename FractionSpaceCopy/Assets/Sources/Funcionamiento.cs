@@ -23,7 +23,7 @@ public class Funcionamiento : MonoBehaviour
     public TMP_Text puntaje;
     bool timerActive = true;
     private bool mensajeActivo = false;
-    private int puntos = 0;
+    public static int puntos = 0;
     public DateTime fechaInicio;
     public DateTime fechaFin;
     private Partida partida = new Partida();
