@@ -17,7 +17,7 @@ public class final : MonoBehaviour
         puntos_uno = Funcionamiento.puntos;
         puntos_tres = CombatManager.puntos;
         puntos_totales = Inventory.puntos;
-        Debug.Log("Puntos totales: "puntos_totales);
+        Debug.Log("Puntos totales: " + puntos_totales);
 
         puntaje.text = puntos_totales.ToString();
     }
