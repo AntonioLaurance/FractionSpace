@@ -22,6 +22,7 @@ public class CombatCrtl : MonoBehaviour
     bool final = false;
     bool timerActive = true;
     private string tempPuntos = "puntaje";
+
     
     public void Start()
     {
