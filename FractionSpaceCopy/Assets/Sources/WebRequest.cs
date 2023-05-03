@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
-using UnityEditor;
+
 using TMPro;
 
 public class WebRequest : MonoBehaviour
@@ -61,7 +61,7 @@ public class WebRequest : MonoBehaviour
         {
             // Mandamos error
             Debug.Log("Usuario no válido.");
-            EditorUtility.DisplayDialog("Credenciales incorrectas", "El usuario no es válido","Aceptar");
+  
         }
     }
 
@@ -84,7 +84,7 @@ public class WebRequest : MonoBehaviour
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
-                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
+            
             }
             else
             {

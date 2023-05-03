@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.EventSystems;
@@ -209,7 +208,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
-                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
+                
             }
             else
             {
@@ -269,7 +268,6 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
-                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
             }
             else
             {
@@ -313,7 +311,7 @@ public class Inventory : MonoBehaviour, IHasChanged{
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
-                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
+                
             }
             else
             {

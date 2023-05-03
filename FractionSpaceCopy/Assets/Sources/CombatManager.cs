@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
-using UnityEditor;
 using UnityEngine.SceneManagement;
 using TMPro;
 
@@ -262,7 +261,7 @@ public class CombatManager : MonoBehaviour
             {
                 // Imprimimos mensaje de error
                 Debug.Log(www.error);
-                EditorUtility.DisplayDialog("Error de conexión", www.error, "Aceptar");
+      
             }
             else
             {
